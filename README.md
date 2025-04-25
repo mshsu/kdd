@@ -7,3 +7,4 @@ Ground-up implementations of machine learning and data mining algorithms
 - LAB05: Recommender Systems (Collaborative Filtering)
 - LAB06: Text Mining
 - LAB07: Link Analysis (Page Rank)
+- FINAL: Machine Learning Application - CMS Medicare Claims Analysis
