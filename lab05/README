@@ -1,0 +1,96 @@
+# CSC 466 Fall 2023
+# Martin Hsu - mshsu@calpoly.edu
+# Rachel Roggenkemper - rroggenk@calpoly.edu
+
+# SUBMISSION DESCRIPTION
+Python Scripts
+
+# RUN INSTRUCTIONS
+Must have the following packages:
+- pandas, numpy, sys, typing
+
+Structure:
+- recommend.py - A python script containing the collaborative filtering
+    algorithms
+- EvaluateCFRandom.py - A python script implementing random sampling with
+    collaborative filtering
+- EvaluateCFList.py - A python script which implements collaborative filtering
+    on a fixed sample from a CSV file
+
+How to run
+1. Setup
+    a. Load the files into your environment of choice. Make sure that all python
+        scripts are together in the same folder!!!! That way the dependent
+        scripts can import and run functions from other scripts.
+2. How to run EvaluateCFRandom.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 EvaluateCFRandom.py Method Size Repeats
+        - Method - The collaborative filtering algorithm to be used. The
+            following inputs are accepted: user-mean-utility, user-weighted-sum,
+            user-adjusted-weighted-sum, item-mean-utility, item-weighted-sum,
+            item-adjusted-weighted-sum
+        - Size - An integer denoting size of each random sample
+        - Repeats - An integer denoting the number of times to randomly sample
+            the dataset and run the collaborative filtering algorithm.
+       To access the help message with the syntax and list of accepted Method
+        inputs, run the python script with no parameters:
+       $ python3 EvaluateCFRandom.py
+3. How to run EvaluateCFList.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 EvaluateCFList.py Method Filename
+        - Method - The collaborative filtering algorithm to be used. The
+            following inputs are accepted: user-mean-utility, user-weighted-sum,
+            user-adjusted-weighted-sum, item-mean-utility, item-weighted-sum,
+            item-adjusted-weighted-sum
+        - Filename - A string pointing to the filepath of a CSV file with
+            user-item pairs, with no header
+       To access the help message with the syntax and list of accepted Method
+        inputs, run the python script with no parameters:
+       $ python3 EvaluateCFList.py
+4. After running either EvaluateCFRandom.py or EvaluateCFList.py, a report will
+    be printed to the terminal, which will include:
+    a. The sampling method used
+    b. The collaborative filtering method used
+    c. The sample size (EvaluateCFRandom.py) or the name of the user-item pair
+        list file (EvaluateCFList.py)
+    d. Each repeat (there will only be one repeat for EvaluateCFList.py):
+        - The repeat number
+        - The confusion matrix
+        - Precision, recall, F1 measure, accuracy and MAE
+        - A list of user-item pairs and their corresponding observed rating,
+            predicted rating, and the absolute error.
+
+# IMPLEMENTED METHODS
+1. 5-Nearest-Neighbors User-Based Mean Utility Collaborative Filtering
+    To run, use Method: user-mean-utility
+2. 5-Nearest-Neighbors User-Based Weighted Sum Collaborative Filtering
+    To run, use Method: user-weighted-sum
+3. 5-Nearest-Neighbors User-Based Adjusted Weighted Sum Collaborative Filtering
+    To run, use Method: user-adjusted-weighted-sum
+4. 5-Nearest-Neighbors Item-Based Mean Utility Collaborative Filtering
+    To run, use Method: item-mean-utility
+5. 5-Nearest-Neighbors Item-Based Weighted Sum Collaborative Filtering
+    To run, use Method: item-weighted-sum
+6. 5-Nearest-Neighbors Item-Based Adjusted Weighted Sum Collaborative Filtering
+    To run, use Method: item-adjusted-weighted-sum
+
+
+# PROGRAMS/FILES
+Python scripts:
+- recommend.py
+- EvaluateCFRandom.py
+- EvaluateCFList.py
+Other:
+- README
+- Lab03-report.pdf
+
+# EXPECTED ERRORS:
+- The jester dataset MUST be kept at the following relative directory location:
+    "data/jester-data-1.csv" for the script to work.
+- You must have all python scripts in the SAME LOCATION or there will be errors.
+- You must enter the correct datatypes into the terminal or there will be
+    errors.
+- The CSV sample list input to EvaluateCFList.csv MUST contain one column where
+    the first column is users, and the second is items. There must be no header.

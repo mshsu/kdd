@@ -1,0 +1,2509 @@
+{
+ "Northeastern": [
+  "William & Mary",
+  "Villanova",
+  "Rhode Island",
+  "Hofstra",
+  "Ball State",
+  "New Hampshire",
+  "Maine",
+  "Georgia Southern",
+  "Syracuse",
+  "Massachusetts"
+ ],
+ "UTEP": [
+  "East Carolina",
+  "Houston",
+  "Rice",
+  "Buffalo",
+  "New Mexico State",
+  "Tulsa",
+  "Texas"
+ ],
+ "Eastern Illinois": [
+  "Austin Peay",
+  "Central Michigan",
+  "Eastern Kentucky",
+  "Jacksonville State",
+  "Illinois",
+  "Tennessee-Martin",
+  "Tennessee State"
+ ],
+ "Upper Iowa": [
+  "Drake"
+ ],
+ "Indiana State": [
+  "Eastern Michigan",
+  "Youngstown State",
+  "Eastern Illinois",
+  "Illinois State",
+  "Western Illinois",
+  "Missouri State",
+  "Northern Illinois",
+  "Southeast Missouri State",
+  "South Dakota State",
+  "Southern Illinois",
+  "North Dakota State",
+  "Northern Iowa"
+ ],
+ "East Central Oklahoma": [
+  "Sam Houston State"
+ ],
+ "Southwest Baptist": [
+  "Southeast Missouri State"
+ ],
+ "Shorter": [
+  "Western Carolina"
+ ],
+ "Hofstra": [
+  "Albany",
+  "James Madison",
+  "Delaware",
+  "Richmond",
+  "Maine",
+  "Connecticut",
+  "Massachusetts",
+  "New Hampshire"
+ ],
+ "Jacksonville State": [
+  "Tennessee-Martin",
+  "Georgia Tech",
+  "Eastern Kentucky"
+ ],
+ "Miami (OH)": [
+  "Michigan",
+  "Northern Illinois",
+  "Kent State",
+  "Vanderbilt",
+  "Cincinnati",
+  "Ball State",
+  "Ohio",
+  "Buffalo",
+  "Toledo",
+  "Temple"
+ ],
+ "Eastern Kentucky": [
+  "Tennessee State",
+  "Richmond",
+  "Western Kentucky",
+  "Cincinnati"
+ ],
+ "Charleston Southern": [
+  "Wofford",
+  "Liberty",
+  "Miami (FL)",
+  "Stony Brook",
+  "Miami (OH)"
+ ],
+ "Middle Tennessee State": [
+  "Troy",
+  "Kentucky",
+  "Louisville",
+  "Mississippi State",
+  "Arkansas State",
+  "Louisiana-Lafayette",
+  "Florida International"
+ ],
+ "South Dakota State": [
+  "Cal Poly",
+  "Iowa State",
+  "McNeese State",
+  "Southern Illinois",
+  "Northern Iowa"
+ ],
+ "Lambuth": [
+  "Murray State"
+ ],
+ "Texas A&M-Kingsville": [
+  "North Dakota"
+ ],
+ "Henderson State": [
+  "Central Arkansas"
+ ],
+ "Austin Peay": [
+  "Southeast Missouri State",
+  "Tennessee State",
+  "Georgia Southern",
+  "Murray State",
+  "Tennessee-Martin",
+  "Gardner-Webb",
+  "Eastern Kentucky",
+  "North Dakota State",
+  "Jacksonville State"
+ ],
+ "West Georgia": [
+  "Samford"
+ ],
+ "North Carolina State": [
+  "South Florida",
+  "Boston College",
+  "Maryland",
+  "Rutgers",
+  "South Carolina",
+  "Clemson",
+  "Florida State"
+ ],
+ "Gardner-Webb": [
+  "Georgia Tech",
+  "Charleston Southern",
+  "Coastal Carolina",
+  "Liberty",
+  "Sam Houston State",
+  "Tennessee Tech"
+ ],
+ "Baylor": [
+  "Oklahoma State",
+  "Wake Forest",
+  "Oklahoma",
+  "Texas",
+  "Nebraska",
+  "Connecticut",
+  "Texas Tech",
+  "Missouri"
+ ],
+ "Oregon State": [
+  "Stanford",
+  "Utah",
+  "Penn State",
+  "Oregon"
+ ],
+ "Montana-Western": [
+  "Weber State"
+ ],
+ "Army": [
+  "Rutgers",
+  "New Hampshire",
+  "Air Force",
+  "Texas A&M",
+  "Akron",
+  "Buffalo",
+  "Navy",
+  "Rice",
+  "Temple"
+ ],
+ "Southern Methodist": [
+  "UCF",
+  "Southern Miss",
+  "UTEP",
+  "Texas Tech",
+  "Rice",
+  "TCU",
+  "Tulane",
+  "Houston",
+  "Memphis",
+  "Navy",
+  "Tulsa"
+ ],
+ "Marist": [
+  "Bucknell",
+  "Wagner",
+  "San Diego",
+  "Fordham",
+  "Lafayette",
+  "Georgetown",
+  "Sacred Heart"
+ ],
+ "Appalachian State": [
+  "Richmond",
+  "LSU",
+  "James Madison"
+ ],
+ "Youngstown State": [
+  "South Dakota State",
+  "Ohio State",
+  "Illinois State",
+  "Liberty",
+  "Southern Utah",
+  "Missouri State",
+  "Northern Iowa",
+  "Southern Illinois"
+ ],
+ "Akron": [
+  "Wisconsin",
+  "Temple",
+  "Ohio",
+  "Ball State",
+  "Cincinnati",
+  "Bowling Green",
+  "Buffalo"
+ ],
+ "Virginia Tech": [
+  "Boston College",
+  "Florida State",
+  "East Carolina",
+  "Miami (FL)"
+ ],
+ "Coastal Carolina": [
+  "Virginia Military Institute",
+  "Colgate",
+  "Liberty",
+  "Penn State",
+  "Stony Brook",
+  "Charleston Southern"
+ ],
+ "Pittsburgh": [
+  "Cincinnati",
+  "Rutgers",
+  "Bowling Green",
+  "Oregon State"
+ ],
+ "Syracuse": [
+  "Connecticut",
+  "South Florida",
+  "West Virginia",
+  "Penn State",
+  "Rutgers",
+  "Pittsburgh",
+  "Akron",
+  "Northwestern",
+  "Cincinnati"
+ ],
+ "Western Kentucky": [
+  "Middle Tennessee State",
+  "Virginia Tech",
+  "Florida Atlantic",
+  "Ball State",
+  "Indiana",
+  "North Texas",
+  "Troy",
+  "Florida International",
+  "Kentucky",
+  "Alabama"
+ ],
+ "Maine": [
+  "James Madison",
+  "Iowa",
+  "Northern Iowa",
+  "New Hampshire",
+  "Richmond"
+ ],
+ "Georgia Southern": [
+  "Wofford",
+  "Samford",
+  "Elon",
+  "Georgia",
+  "Appalachian State"
+ ],
+ "Hawaii": [
+  "Cincinnati",
+  "Notre Dame",
+  "Utah State",
+  "Oregon State",
+  "Boise State",
+  "San Jose State",
+  "Florida"
+ ],
+ "Monmouth": [
+  "Coastal Carolina",
+  "Rhodes",
+  "Rhode Island",
+  "Maine",
+  "Albany"
+ ],
+ "Campbell": [
+  "Methodist",
+  "Morehead State",
+  "Drake",
+  "Dayton",
+  "Birmingham Southern",
+  "Jacksonville",
+  "Butler",
+  "Valparaiso",
+  "San Diego",
+  "Davidson"
+ ],
+ "Southern Utah": [
+  "Northern Iowa",
+  "Air Force",
+  "Northern Arizona",
+  "Cal Poly",
+  "Montana",
+  "South Dakota",
+  "UC Davis"
+ ],
+ "Ohio": [
+  "Wyoming",
+  "Central Michigan",
+  "Buffalo",
+  "Bowling Green",
+  "Western Michigan",
+  "Temple",
+  "Northwestern",
+  "Ohio State"
+ ],
+ "Adams State": [
+  "Southern Utah",
+  "Montana State"
+ ],
+ "Virginia": [
+  "Miami (FL)",
+  "Clemson",
+  "Duke",
+  "Wake Forest",
+  "USC",
+  "Virginia Tech",
+  "Connecticut"
+ ],
+ "Villanova": [
+  "James Madison",
+  "West Virginia",
+  "James Madison"
+ ],
+ "Michigan": [
+  "Penn State",
+  "Northwestern",
+  "Purdue",
+  "Ohio State",
+  "Michigan State",
+  "Illinois",
+  "Notre Dame",
+  "Toledo",
+  "Utah"
+ ],
+ "Washington State": [
+  "Oregon",
+  "Oregon State",
+  "Arizona State",
+  "Hawaii",
+  "UCLA",
+  "Baylor",
+  "Arizona",
+  "California",
+  "Oklahoma State",
+  "Stanford",
+  "USC"
+ ],
+ "Towson": [
+  "New Hampshire",
+  "Coastal Carolina",
+  "William & Mary",
+  "James Madison",
+  "Navy",
+  "Northeastern",
+  "Richmond",
+  "Delaware",
+  "Villanova"
+ ],
+ "Delaware": [
+  "William & Mary",
+  "Maryland",
+  "James Madison",
+  "Furman",
+  "Richmond",
+  "Villanova",
+  "Maine",
+  "Massachusetts"
+ ],
+ "UAB": [
+  "Florida Atlantic",
+  "East Carolina",
+  "Memphis",
+  "Tulsa",
+  "South Carolina",
+  "Tennessee",
+  "Southern Miss",
+  "Houston"
+ ],
+ "Western Oregon": [
+  "Portland State"
+ ],
+ "Illinois State": [
+  "Southern Illinois",
+  "South Dakota State",
+  "Northern Iowa",
+  "Western Illinois",
+  "Marshall",
+  "Eastern Illinois",
+  "Missouri State",
+  "North Dakota State"
+ ],
+ "Bryant University": [
+  "Monmouth",
+  "Marist",
+  "Central Connecticut State",
+  "Massachusetts"
+ ],
+ "Northern Iowa": [
+  "Southern Illinois",
+  "Brigham Young",
+  "Richmond"
+ ],
+ "Alabama State": [
+  "UAB",
+  "Grambling State",
+  "Florida A&M",
+  "Jackson State",
+  "Prairie View A&M",
+  "Alabama A&M",
+  "Bethune-Cookman",
+  "Southern University"
+ ],
+ "Albany": [
+  "Massachusetts",
+  "New Hampshire",
+  "Delaware"
+ ],
+ "McNeese State": [
+  "Nicholls State",
+  "Central Arkansas",
+  "North Carolina",
+  "Texas State"
+ ],
+ "New Mexico": [
+  "Utah",
+  "UNLV",
+  "Texas A&M",
+  "Brigham Young",
+  "Tulsa",
+  "Colorado State",
+  "TCU",
+  "Air Force"
+ ],
+ "Alcorn State": [
+  "Southern University",
+  "Troy",
+  "Jackson State",
+  "Southeastern Louisiana",
+  "Texas Southern",
+  "Grambling State",
+  "Prairie View A&M",
+  "Alabama State",
+  "New Mexico State",
+  "Alabama A&M"
+ ],
+ "Texas College": [
+  "Texas Southern",
+  "Mississippi Valley State",
+  "Prairie View A&M"
+ ],
+ "Johnson Smith": [
+  "North Carolina A&T"
+ ],
+ "Virginia State": [
+  "Norfolk State"
+ ],
+ "Assumption": [
+  "Sacred Heart"
+ ],
+ "Colgate": [
+  "Villanova",
+  "Furman",
+  "Stony Brook"
+ ],
+ "South Carolina State": [
+  "Clemson",
+  "UCF",
+  "Appalachian State"
+ ],
+ "Mississippi State": [
+  "Alabama",
+  "Georgia Tech",
+  "Auburn",
+  "Tennessee",
+  "Louisiana Tech",
+  "LSU",
+  "Kentucky",
+  "Mississippi"
+ ],
+ "Chattanooga": [
+  "Furman",
+  "Florida State",
+  "Oklahoma",
+  "Western Carolina",
+  "Wofford",
+  "Samford",
+  "Jacksonville State",
+  "Citadel",
+  "Georgia Southern",
+  "Elon",
+  "Appalachian State"
+ ],
+ "Louisiana-Monroe": [
+  "Tulane",
+  "Mississippi",
+  "Arkansas State",
+  "Auburn",
+  "Arkansas",
+  "Middle Tennessee State",
+  "Florida Atlantic",
+  "Louisiana-Lafayette"
+ ],
+ "Florida Atlantic": [
+  "Minnesota",
+  "Middle Tennessee State",
+  "Troy",
+  "Texas",
+  "Michigan State",
+  "Arkansas State"
+ ],
+ "Eastern Washington": [
+  "Sacramento State",
+  "Colorado",
+  "Portland State",
+  "Texas Tech",
+  "Montana"
+ ],
+ "Tennessee-Martin": [
+  "Tennessee State",
+  "Eastern Kentucky",
+  "Auburn",
+  "South Florida"
+ ],
+ "Western Illinois": [
+  "Youngstown State",
+  "Northern Iowa",
+  "Arkansas",
+  "Southern Illinois",
+  "South Dakota State"
+ ],
+ "Northern Illinois": [
+  "Tennessee",
+  "Navy",
+  "Central Michigan",
+  "Louisiana Tech",
+  "Western Michigan",
+  "Ball State",
+  "Minnesota"
+ ],
+ "Memphis": [
+  "UCF",
+  "South Florida",
+  "Louisville",
+  "East Carolina",
+  "Mississippi",
+  "Marshall",
+  "Rice"
+ ],
+ "James Madison": [
+  "Duke",
+  "Montana"
+ ],
+ "Western Michigan": [
+  "Central Michigan",
+  "Nebraska",
+  "Rice",
+  "Ball State"
+ ],
+ "Mars Hill": [
+  "Furman"
+ ],
+ "Southern University": [
+  "Houston",
+  "Prairie View A&M",
+  "Tennessee State",
+  "Grambling State",
+  "Florida A&M"
+ ],
+ "Angelo State": [
+  "Texas State"
+ ],
+ "Alabama A&M": [
+  "Grambling State",
+  "Louisiana-Monroe",
+  "Prairie View A&M",
+  "Tuskegee",
+  "Jackson State",
+  "Jacksonville State",
+  "Tennessee State"
+ ],
+ "Arkansas-Pine Bluff": [
+  "Jackson State",
+  "Alabama A&M",
+  "Southern University",
+  "Grambling State",
+  "Alcorn State",
+  "Henderson State",
+  "Central Arkansas",
+  "Prairie View A&M",
+  "Arkansas-Monticello"
+ ],
+ "Elon": [
+  "Liberty",
+  "Wofford",
+  "Appalachian State",
+  "Richmond"
+ ],
+ "North Greenville": [
+  "Presbyterian",
+  "South Dakota",
+  "Charleston Southern",
+  "Liberty"
+ ],
+ "Southern Virginia": [
+  "Morehead State",
+  "McNeese State"
+ ],
+ "Texas A&M-Commerce": [
+  "Northwestern State"
+ ],
+ "Savannah State": [
+  "Jacksonville",
+  "Howard",
+  "Charleston Southern",
+  "Bethune-Cookman",
+  "Edward Waters",
+  "Mississippi Valley State",
+  "North Carolina Central"
+ ],
+ "Louisiana-Lafayette": [
+  "Illinois",
+  "Kansas State",
+  "Southern Miss",
+  "UTEP",
+  "Florida Atlantic",
+  "Troy"
+ ],
+ "Langston": [
+  "Grambling State",
+  "Stephen F. Austin"
+ ],
+ "Webber International": [
+  "Citadel",
+  "Jacksonville",
+  "Savannah State"
+ ],
+ "Presbyterian": [
+  "Wofford",
+  "Elon",
+  "Gardner-Webb",
+  "Western Carolina",
+  "Coastal Carolina",
+  "Charleston Southern",
+  "Appalachian State",
+  "Virginia Military Institute"
+ ],
+ "Florida International": [
+  "Kansas",
+  "Louisiana-Lafayette",
+  "Louisiana-Monroe",
+  "South Florida",
+  "Iowa",
+  "Troy",
+  "Florida Atlantic"
+ ],
+ "Texas A&M": [
+  "Miami (FL)",
+  "Kansas State",
+  "Oklahoma",
+  "Arkansas State",
+  "Texas Tech",
+  "Texas",
+  "Oklahoma State",
+  "Baylor"
+ ],
+ "North Texas": [
+  "Kansas State",
+  "LSU",
+  "Louisiana-Lafayette",
+  "Tulsa",
+  "Troy",
+  "Middle Tennessee State",
+  "Arkansas State",
+  "Louisiana-Monroe",
+  "Florida Atlantic",
+  "Rice",
+  "Florida International"
+ ],
+ "Kent State": [
+  "Bowling Green",
+  "Iowa State",
+  "Ball State",
+  "Ohio",
+  "Boston College",
+  "Louisiana-Lafayette",
+  "Northern Illinois",
+  "Akron"
+ ],
+ "Clemson": [
+  "Nebraska",
+  "Florida State",
+  "Wake Forest",
+  "Alabama",
+  "Maryland",
+  "Georgia Tech"
+ ],
+ "UC Davis": [
+  "Montana",
+  "Central Arkansas",
+  "San Jose State",
+  "Sacramento State",
+  "Cal Poly",
+  "Northeastern",
+  "San Diego"
+ ],
+ "Michigan State": [
+  "Penn State",
+  "Georgia",
+  "California",
+  "Ohio State"
+ ],
+ "Idaho State": [
+  "Cal Poly",
+  "Northern Colorado",
+  "Weber State",
+  "Idaho",
+  "Montana State",
+  "North Dakota",
+  "Boise State",
+  "Northern Arizona",
+  "Montana",
+  "Portland State",
+  "Eastern Washington"
+ ],
+ "St. Ambrose": [
+  "South Dakota"
+ ],
+ "Texas Southern": [
+  "Southern University",
+  "Arkansas State",
+  "Prairie View A&M",
+  "Arkansas-Pine Bluff",
+  "Jackson State",
+  "Grambling State",
+  "Mississippi Valley State",
+  "Texas State"
+ ],
+ "Illinois": [
+  "Penn State",
+  "Western Michigan",
+  "Wisconsin",
+  "Minnesota",
+  "Ohio State",
+  "Missouri",
+  "Northwestern"
+ ],
+ "Humboldt State": [
+  "Sacramento State"
+ ],
+ "Grambling State": [
+  "Northwestern State",
+  "Nevada"
+ ],
+ "San Diego State": [
+  "Air Force",
+  "Cal Poly",
+  "San Jose State",
+  "Colorado State",
+  "Brigham Young",
+  "Notre Dame",
+  "New Mexico",
+  "Utah",
+  "TCU",
+  "Wyoming"
+ ],
+ "Utah State": [
+  "Nevada",
+  "UNLV",
+  "Oregon",
+  "Fresno State",
+  "Boise State",
+  "Louisiana Tech",
+  "Brigham Young",
+  "San Jose State",
+  "Utah"
+ ],
+ "Idaho": [
+  "Nevada",
+  "Louisiana Tech",
+  "Boise State",
+  "Arizona",
+  "Hawaii",
+  "Utah State",
+  "San Jose State",
+  "San Diego State",
+  "Fresno State",
+  "Western Michigan"
+ ],
+ "Washington": [
+  "Arizona State",
+  "Arizona",
+  "UCLA",
+  "Stanford",
+  "USC",
+  "Oregon State",
+  "Washington State",
+  "Oklahoma",
+  "Oregon",
+  "Notre Dame",
+  "California",
+  "Brigham Young"
+ ],
+ "Northern Arizona": [
+  "Eastern Washington",
+  "Arizona State",
+  "Montana State",
+  "Weber State",
+  "Montana"
+ ],
+ "Jackson State": [
+  "Hampton",
+  "Tennessee State",
+  "Southern University",
+  "Grambling State",
+  "Grambling State"
+ ],
+ "Louisville": [
+  "Connecticut",
+  "West Virginia",
+  "Rutgers",
+  "Pittsburgh",
+  "Kentucky",
+  "Syracuse",
+  "Cincinnati"
+ ],
+ "North Carolina Central": [
+  "Fayetteville State",
+  "Presbyterian",
+  "Central Connecticut State",
+  "Cal Poly",
+  "Coastal Carolina",
+  "Morgan State",
+  "James Madison"
+ ],
+ "Central State": [
+  "Alabama A&M",
+  "Dayton",
+  "Youngstown State"
+ ],
+ "Colorado State": [
+  "California",
+  "Colorado",
+  "TCU",
+  "Brigham Young",
+  "Utah",
+  "Air Force"
+ ],
+ "Rutgers": [
+  "Navy",
+  "North Carolina",
+  "Cincinnati",
+  "West Virginia",
+  "Fresno State"
+ ],
+ "Tennessee": [
+  "South Carolina",
+  "Wyoming",
+  "Auburn",
+  "Florida",
+  "UCLA",
+  "Alabama",
+  "Georgia"
+ ],
+ "Valparaiso": [
+  "Dayton",
+  "Drake",
+  "Butler",
+  "San Diego",
+  "Marian",
+  "St. Francis (IL)",
+  "Morehead State",
+  "Jacksonville"
+ ],
+ "Florida A&M": [
+  "Delaware State",
+  "South Carolina State",
+  "Morgan State"
+ ],
+ "Missouri State": [
+  "Western Illinois",
+  "Southern Illinois",
+  "Oklahoma State",
+  "Northern Iowa",
+  "North Dakota State",
+  "South Dakota State",
+  "Washburn"
+ ],
+ "South Carolina": [
+  "Iowa",
+  "Clemson",
+  "Georgia",
+  "Vanderbilt",
+  "Florida",
+  "LSU"
+ ],
+ "Wagner": [
+  "Monmouth",
+  "Albany",
+  "Bryant University",
+  "Central Connecticut State",
+  "Sacred Heart",
+  "Robert Morris",
+  "Stonehill",
+  "Duquesne"
+ ],
+ "Navy": [
+  "Ball State",
+  "Duke",
+  "Pittsburgh",
+  "Notre Dame",
+  "Wake Forest"
+ ],
+ "Marshall": [
+  "Tulsa",
+  "East Carolina",
+  "Wisconsin",
+  "UCF",
+  "UAB",
+  "Cincinnati",
+  "West Virginia",
+  "Rice"
+ ],
+ "Boston College": [
+  "Georgia Tech",
+  "Vanderbilt",
+  "North Carolina",
+  "Clemson",
+  "Virginia Tech"
+ ],
+ "Temple": [
+  "Buffalo",
+  "Connecticut",
+  "Penn State",
+  "Western Michigan",
+  "Navy",
+  "Kent State",
+  "Central Michigan"
+ ],
+ "Northern Colorado": [
+  "Eastern Washington",
+  "Montana",
+  "Portland State",
+  "Purdue",
+  "UC Davis",
+  "Weber State",
+  "Northern Arizona",
+  "Sacramento State",
+  "Montana State",
+  "Texas State"
+ ],
+ "Livingstone": [
+  "Savannah State"
+ ],
+ "Eastern Michigan": [
+  "Temple",
+  "Ball State",
+  "Western Michigan",
+  "Maryland",
+  "Northern Illinois",
+  "Akron",
+  "Toledo",
+  "Army",
+  "Michigan State"
+ ],
+ "Southern Miss": [
+  "Auburn",
+  "Memphis",
+  "Marshall",
+  "UTEP",
+  "Boise State",
+  "Rice"
+ ],
+ "San Jose State": [
+  "Nebraska",
+  "Louisiana Tech",
+  "Nevada",
+  "Boise State",
+  "Fresno State",
+  "Stanford"
+ ],
+ "Drake": [
+  "Lehigh",
+  "Dayton",
+  "Butler",
+  "Jacksonville",
+  "San Diego"
+ ],
+ "Holy Cross": [
+  "Harvard",
+  "Massachusetts",
+  "Colgate",
+  "Yale"
+ ],
+ "Morehead State": [
+  "Eastern Kentucky",
+  "Jacksonville",
+  "Butler",
+  "San Diego",
+  "Drake",
+  "Robert Morris"
+ ],
+ "Bentley College": [
+  "Sacred Heart"
+ ],
+ "Albion": [
+  "Butler"
+ ],
+ "Southern Connecticut State": [
+  "Bryant University"
+ ],
+ "Delaware Valley": [
+  "Iona"
+ ],
+ "Furman": [
+  "Georgia Southern",
+  "Virginia Tech",
+  "Wofford",
+  "Elon",
+  "Appalachian State"
+ ],
+ "Fayetteville State": [
+  "Presbyterian"
+ ],
+ "St. Francis (PA)": [
+  "Bryant University",
+  "Monmouth",
+  "Central Connecticut State",
+  "Robert Morris",
+  "Morehead State",
+  "Marist",
+  "Wagner",
+  "Duquesne",
+  "Sacred Heart",
+  "Virginia Military Institute",
+  "Albany"
+ ],
+ "St. Cloud State": [
+  "North Dakota"
+ ],
+ "Stony Brook": [
+  "Hofstra",
+  "Liberty",
+  "Maine",
+  "Elon",
+  "Brown",
+  "Gardner-Webb"
+ ],
+ "Central Michigan": [
+  "Purdue",
+  "Georgia",
+  "Florida Atlantic",
+  "Ball State",
+  "Eastern Michigan"
+ ],
+ "Cincinnati": [
+  "Virginia Tech",
+  "Oklahoma",
+  "Connecticut"
+ ],
+ "Mississippi": [
+  "Wake Forest",
+  "South Carolina",
+  "Alabama",
+  "Vanderbilt"
+ ],
+ "Sacramento State": [
+  "Colorado State",
+  "Idaho State",
+  "Northern Arizona",
+  "Montana State",
+  "Weber State",
+  "Montana"
+ ],
+ "Tennessee Tech": [
+  "Eastern Kentucky",
+  "Louisville",
+  "Jacksonville State",
+  "Eastern Illinois",
+  "Tennessee-Martin",
+  "Western Michigan",
+  "Tennessee State",
+  "Austin Peay",
+  "Murray State"
+ ],
+ "Citadel": [
+  "Appalachian State",
+  "Furman",
+  "Elon",
+  "Florida",
+  "Georgia Southern",
+  "Samford",
+  "Clemson",
+  "Wofford"
+ ],
+ "Jacksonville": [
+  "Appalachian State",
+  "Davidson",
+  "North Carolina Pembroke",
+  "Albany"
+ ],
+ "Wyoming": [
+  "Brigham Young",
+  "Utah",
+  "Colorado State",
+  "Bowling Green",
+  "Air Force",
+  "TCU",
+  "New Mexico",
+  "UNLV"
+ ],
+ "Richmond": [
+  "James Madison",
+  "Villanova",
+  "Virginia"
+ ],
+ "West Virginia": [
+  "Cincinnati",
+  "Colorado",
+  "East Carolina",
+  "Pittsburgh"
+ ],
+ "Stillman": [
+  "Jackson State"
+ ],
+ "South Dakota": [
+  "Cal Poly",
+  "Northern Iowa",
+  "Montana State",
+  "Southeastern Louisiana",
+  "North Dakota"
+ ],
+ "Baker University": [
+  "Tennessee-Martin"
+ ],
+ "Western Carolina": [
+  "Furman",
+  "Florida State",
+  "Wofford",
+  "Samford",
+  "Appalachian State",
+  "Liberty",
+  "Citadel",
+  "Georgia Southern",
+  "Elon"
+ ],
+ "Norfolk State": [
+  "South Carolina State",
+  "Bethune-Cookman",
+  "William & Mary",
+  "Kentucky",
+  "Florida A&M",
+  "Hampton",
+  "Delaware State"
+ ],
+ "Morgan State": [
+  "South Carolina State",
+  "Norfolk State",
+  "Towson",
+  "Bethune-Cookman",
+  "Rutgers",
+  "Hampton"
+ ],
+ "William & Mary": [
+  "James Madison",
+  "Villanova",
+  "North Carolina State",
+  "Richmond"
+ ],
+ "Buffalo": [
+  "Missouri",
+  "Kent State",
+  "Pittsburgh",
+  "Central Michigan",
+  "Connecticut",
+  "Western Michigan"
+ ],
+ "Cumberland University": [
+  "Chattanooga"
+ ],
+ "Duquesne": [
+  "Sacred Heart",
+  "Central Connecticut State",
+  "Albany",
+  "Bucknell",
+  "Bryant University",
+  "Monmouth",
+  "Robert Morris"
+ ],
+ "Rhode Island": [
+  "New Hampshire",
+  "Towson",
+  "Maine",
+  "Fordham",
+  "Boston College",
+  "Hofstra",
+  "Massachusetts",
+  "William & Mary",
+  "Villanova"
+ ],
+ "Tusculum": [
+  "Gardner-Webb"
+ ],
+ "Winston-Salem": [
+  "Bethune-Cookman",
+  "North Carolina A&T",
+  "North Carolina Central",
+  "South Carolina State",
+  "Morgan State",
+  "Florida A&M",
+  "Savannah State",
+  "Norfolk State"
+ ],
+ "Benedict": [
+  "South Carolina State"
+ ],
+ "Davidson": [
+  "Valparaiso",
+  "Drake",
+  "Dayton",
+  "San Diego",
+  "Marist",
+  "Morehead State",
+  "North Carolina Pembroke"
+ ],
+ "New Mexico Highlands": [
+  "Northern Arizona"
+ ],
+ "Southeast Missouri State": [
+  "Eastern Illinois",
+  "Tennessee Tech",
+  "Jacksonville State",
+  "Missouri",
+  "Tennessee-Martin",
+  "Eastern Kentucky",
+  "Missouri State",
+  "Murray State"
+ ],
+ "Tulane": [
+  "Alabama",
+  "Houston",
+  "Army",
+  "UAB",
+  "LSU",
+  "Tulsa",
+  "Rice",
+  "Memphis",
+  "East Carolina",
+  "UTEP"
+ ],
+ "UCF": [
+  "Tulsa",
+  "UAB",
+  "Boston College",
+  "Miami (FL)",
+  "Southern Miss",
+  "South Florida",
+  "UTEP",
+  "East Carolina"
+ ],
+ "Hampton": [
+  "Bethune-Cookman",
+  "Winston-Salem",
+  "South Carolina State",
+  "Florida A&M",
+  "Southern Illinois"
+ ],
+ "Murray State": [
+  "Eastern Kentucky",
+  "Illinois State",
+  "Tennessee-Martin",
+  "Indiana",
+  "Jacksonville State",
+  "Western Kentucky",
+  "Eastern Illinois"
+ ],
+ "Duke": [
+  "Georgia Tech",
+  "Northwestern",
+  "North Carolina",
+  "Clemson",
+  "Virginia Tech",
+  "Miami (FL)",
+  "Wake Forest",
+  "North Carolina State"
+ ],
+ "Northwestern State": [
+  "Cal Poly",
+  "Southeastern Louisiana",
+  "Baylor",
+  "Central Arkansas",
+  "McNeese State"
+ ],
+ "Southeastern Louisiana": [
+  "Stephen F. Austin",
+  "Nicholls State",
+  "Central Arkansas",
+  "McNeese State",
+  "Mississippi State",
+  "Louisiana Tech",
+  "Texas State"
+ ],
+ "Glenville State": [
+  "Liberty"
+ ],
+ "Maryland": [
+  "Middle Tennessee State",
+  "Virginia Tech",
+  "Florida State",
+  "Boston College",
+  "Virginia"
+ ],
+ "Central Connecticut State": [
+  "North Dakota State",
+  "Robert Morris",
+  "Albany",
+  "Monmouth"
+ ],
+ "Faulkner": [
+  "Samford"
+ ],
+ "Stephen F. Austin": [
+  "Western Illinois",
+  "Texas State",
+  "TCU",
+  "Northwestern State",
+  "McNeese State",
+  "Central Arkansas",
+  "South Dakota State",
+  "Sam Houston State"
+ ],
+ "Houston": [
+  "Rice",
+  "Oklahoma State",
+  "Colorado State",
+  "Marshall",
+  "Air Force"
+ ],
+ "Quincy": [
+  "Western Illinois",
+  "Central Arkansas"
+ ],
+ "Montana State": [
+  "Kansas State",
+  "Weber State",
+  "Eastern Washington",
+  "Montana",
+  "Minnesota"
+ ],
+ "Louisiana Tech": [
+  "Kansas",
+  "Nevada",
+  "Army",
+  "Boise State"
+ ],
+ "Bowling Green": [
+  "Northern Illinois",
+  "Miami (OH)",
+  "Boise State",
+  "Buffalo",
+  "Eastern Michigan",
+  "Minnesota"
+ ],
+ "Miami (FL)": [
+  "North Carolina State",
+  "California",
+  "North Carolina",
+  "Georgia Tech",
+  "Florida State",
+  "Florida"
+ ],
+ "Delta State": [
+  "McNeese State"
+ ],
+ "Texas State": [
+  "Southern Methodist",
+  "Northwestern State",
+  "Montana",
+  "Southern Utah",
+  "Central Arkansas"
+ ],
+ "UNLV": [
+  "San Diego State",
+  "Nevada",
+  "Air Force",
+  "Colorado State",
+  "TCU",
+  "Brigham Young",
+  "Utah"
+ ],
+ "Azusa Pacific": [
+  "San Diego"
+ ],
+ "Nevada": [
+  "Boise State",
+  "Missouri",
+  "New Mexico State",
+  "Maryland",
+  "Texas Tech",
+  "Hawaii"
+ ],
+ "Cal Poly": [
+  "Weber State",
+  "Wisconsin",
+  "Montana"
+ ],
+ "Toledo": [
+  "Bowling Green",
+  "Akron",
+  "Central Michigan",
+  "Ball State",
+  "Northern Illinois",
+  "Florida International",
+  "Arizona",
+  "Fresno State",
+  "Western Michigan"
+ ],
+ "Stanford": [
+  "Arizona State",
+  "Notre Dame",
+  "USC",
+  "California",
+  "UCLA",
+  "TCU",
+  "Oregon"
+ ],
+ "Weber State": [
+  "Hawaii",
+  "Eastern Washington",
+  "Montana",
+  "Utah"
+ ],
+ "Howard": [
+  "Florida A&M",
+  "North Carolina A&T",
+  "Winston-Salem",
+  "Georgetown",
+  "Bethune-Cookman",
+  "Hampton",
+  "Norfolk State",
+  "Delaware State",
+  "Morgan State",
+  "South Carolina State"
+ ],
+ "Concordia College": [
+  "Savannah State",
+  "Texas Southern",
+  "Tennessee-Martin"
+ ],
+ "Kansas": [
+  "Nebraska",
+  "Texas Tech",
+  "South Florida",
+  "Texas",
+  "Oklahoma"
+ ],
+ "California": [
+  "Oregon State",
+  "Arizona",
+  "USC",
+  "Maryland"
+ ],
+ "Rhodes": [
+  "New Hampshire",
+  "Maine"
+ ],
+ "Southern Illinois": [
+  "North Dakota State",
+  "Northwestern",
+  "New Hampshire"
+ ],
+ "Iowa State": [
+  "Baylor",
+  "Missouri",
+  "Iowa",
+  "UNLV",
+  "Kansas State",
+  "Texas A&M",
+  "Oklahoma State",
+  "Nebraska",
+  "Colorado",
+  "Kansas"
+ ],
+ "Lehigh": [
+  "Holy Cross",
+  "Princeton",
+  "Colgate",
+  "Villanova",
+  "Harvard",
+  "Cornell"
+ ],
+ "Butler": [
+  "Jacksonville",
+  "San Diego",
+  "Franklin",
+  "Dayton",
+  "Davidson"
+ ],
+ "Fordham": [
+  "Colgate",
+  "Holy Cross",
+  "Lehigh",
+  "Dayton",
+  "Lafayette",
+  "Bucknell"
+ ],
+ "Robert Morris": [
+  "Monmouth",
+  "Albany",
+  "Bucknell",
+  "Sacred Heart",
+  "Bryant University",
+  "Dayton"
+ ],
+ "Iona": [
+  "Stony Brook",
+  "Marist",
+  "Maine",
+  "Sacred Heart",
+  "Bryant University",
+  "UC Davis",
+  "Wagner",
+  "Wesley College"
+ ],
+ "Merrimack": [
+  "Bryant University"
+ ],
+ "Wisconsin-La Crosse": [
+  "North Dakota"
+ ],
+ "Delaware State": [
+  "South Carolina State",
+  "Morgan State",
+  "Winston-Salem",
+  "Kent State",
+  "Central Connecticut State",
+  "Hampton"
+ ],
+ "Concordia University (WI)": [
+  "Valparaiso"
+ ],
+ "North Dakota State": [
+  "Northern Iowa",
+  "Youngstown State",
+  "Western Illinois",
+  "Wyoming",
+  "South Dakota State"
+ ],
+ "Purdue": [
+  "Northwestern",
+  "Penn State",
+  "Michigan State",
+  "Minnesota",
+  "Oregon",
+  "Notre Dame",
+  "Iowa",
+  "Ohio State"
+ ],
+ "UCLA": [
+  "Fresno State",
+  "Oregon State",
+  "Oregon",
+  "California",
+  "Arizona",
+  "Brigham Young",
+  "Arizona State",
+  "USC"
+ ],
+ "Massachusetts": [
+  "James Madison",
+  "Texas Tech",
+  "Richmond",
+  "Maine",
+  "New Hampshire"
+ ],
+ "Georgia Tech": [
+  "LSU",
+  "Virginia Tech",
+  "Virginia",
+  "North Carolina"
+ ],
+ "North Carolina A&T": [
+  "Florida A&M",
+  "Morgan State",
+  "Bethune-Cookman",
+  "Coastal Carolina",
+  "Norfolk State",
+  "South Carolina State",
+  "Delaware State",
+  "Hampton",
+  "North Carolina Central"
+ ],
+ "Bethune-Cookman": [
+  "Florida A&M",
+  "Delaware State",
+  "South Carolina State"
+ ],
+ "Southern Oregon": [
+  "Sacramento State",
+  "South Dakota"
+ ],
+ "West Chester": [
+  "Delaware"
+ ],
+ "Georgetown": [
+  "Yale",
+  "Holy Cross",
+  "Bucknell",
+  "Fordham",
+  "Pennsylvania",
+  "Richmond",
+  "Lehigh",
+  "Lafayette"
+ ],
+ "Samford": [
+  "Elon",
+  "Furman",
+  "Appalachian State",
+  "Mississippi",
+  "Wofford"
+ ],
+ "New Mexico State": [
+  "Idaho",
+  "San Jose State",
+  "Fresno State",
+  "New Mexico",
+  "Nebraska",
+  "Louisiana Tech",
+  "Boise State",
+  "Hawaii",
+  "Utah State"
+ ],
+ "Rice": [
+  "Vanderbilt",
+  "Tulsa",
+  "Texas"
+ ],
+ "Arkansas State": [
+  "Troy",
+  "Memphis",
+  "Florida International",
+  "Alabama",
+  "Louisiana-Lafayette",
+  "Southern Miss"
+ ],
+ "William Penn": [
+  "Drake"
+ ],
+ "Lenoir-Rhyne": [
+  "Davidson"
+ ],
+ "Mississippi Valley State": [
+  "Arkansas-Pine Bluff",
+  "Prairie View A&M",
+  "Southern University",
+  "Jackson State",
+  "Alabama State",
+  "Alabama A&M",
+  "Alcorn State",
+  "Grambling State"
+ ],
+ "Virginia Military Institute": [
+  "Liberty",
+  "Gardner-Webb",
+  "William & Mary",
+  "Charleston Southern",
+  "Stony Brook",
+  "Richmond",
+  "Ohio"
+ ],
+ "Shaw": [
+  "Texas Southern"
+ ],
+ "Ohio State": [
+  "USC",
+  "Penn State",
+  "Texas"
+ ],
+ "Arizona": [
+  "Oregon",
+  "USC",
+  "Stanford",
+  "New Mexico",
+  "Oregon State"
+ ],
+ "Dixie State": [
+  "Weber State"
+ ],
+ "Portland State": [
+  "Sacramento State",
+  "UC Davis",
+  "Northern Arizona",
+  "Washington State",
+  "Montana State",
+  "Weber State",
+  "Montana"
+ ],
+ "Arizona State": [
+  "Arizona",
+  "Georgia",
+  "Oregon State",
+  "USC",
+  "California",
+  "UNLV",
+  "Oregon"
+ ],
+ "Fresno State": [
+  "Hawaii",
+  "Colorado State",
+  "Boise State",
+  "Nevada",
+  "Louisiana Tech",
+  "Wisconsin"
+ ],
+ "Kansas State": [
+  "Kansas",
+  "Colorado",
+  "Texas Tech",
+  "Oklahoma",
+  "Missouri",
+  "Nebraska",
+  "Louisville"
+ ],
+ "Troy": [
+  "Ohio State",
+  "LSU",
+  "Southern Miss",
+  "Oklahoma State",
+  "Louisiana-Monroe"
+ ],
+ "East Carolina": [
+  "Southern Miss",
+  "Virginia",
+  "North Carolina State",
+  "Kentucky",
+  "Houston"
+ ],
+ "Iowa": [
+  "Pittsburgh",
+  "Michigan State",
+  "Illinois",
+  "Northwestern"
+ ],
+ "Arkansas": [
+  "South Carolina",
+  "Mississippi State",
+  "Alabama",
+  "Kentucky",
+  "Texas",
+  "Mississippi",
+  "Florida"
+ ],
+ "Columbia": [
+  "Brown",
+  "Princeton",
+  "Lafayette",
+  "Towson",
+  "Harvard",
+  "Fordham",
+  "Pennsylvania",
+  "Yale"
+ ],
+ "Princeton": [
+  "Pennsylvania",
+  "Yale",
+  "Citadel",
+  "Colgate",
+  "Harvard",
+  "Brown"
+ ],
+ "Dartmouth": [
+  "New Hampshire",
+  "Cornell",
+  "Brown",
+  "Colgate",
+  "Yale",
+  "Holy Cross",
+  "Princeton",
+  "Columbia",
+  "Harvard",
+  "Pennsylvania"
+ ],
+ "Chowan": [
+  "Virginia Military Institute"
+ ],
+ "Culver-Stockton": [
+  "South Dakota"
+ ],
+ "Oregon": [
+  "Boise State",
+  "USC",
+  "California"
+ ],
+ "Notre Dame": [
+  "Boston College",
+  "Syracuse",
+  "Pittsburgh",
+  "Michigan State",
+  "North Carolina",
+  "USC"
+ ],
+ "North Carolina": [
+  "North Carolina State",
+  "West Virginia",
+  "Virginia Tech",
+  "Maryland",
+  "Virginia"
+ ],
+ "Pennsylvania": [
+  "Brown",
+  "Harvard",
+  "Villanova",
+  "Lafayette"
+ ],
+ "Air Force": [
+  "TCU",
+  "Houston",
+  "Navy",
+  "Utah",
+  "Brigham Young"
+ ],
+ "Bucknell": [
+  "Colgate",
+  "Lafayette",
+  "Holy Cross",
+  "Hofstra",
+  "Cornell",
+  "Lehigh"
+ ],
+ "Florida State": [
+  "Georgia Tech",
+  "Wake Forest",
+  "Boston College",
+  "Florida"
+ ],
+ "Sam Houston State": [
+  "Central Arkansas",
+  "McNeese State",
+  "Southeastern Louisiana",
+  "Northwestern State",
+  "Texas State",
+  "Kansas"
+ ],
+ "Indiana": [
+  "Illinois",
+  "Purdue",
+  "Iowa",
+  "Central Michigan",
+  "Wisconsin",
+  "Michigan State",
+  "Penn State",
+  "Ball State",
+  "Minnesota"
+ ],
+ "Wofford": [
+  "Appalachian State",
+  "James Madison",
+  "South Carolina"
+ ],
+ "Auburn": [
+  "Mississippi",
+  "Georgia",
+  "West Virginia",
+  "Alabama",
+  "Arkansas",
+  "LSU",
+  "Vanderbilt"
+ ],
+ "Nicholls State": [
+  "Memphis",
+  "Northern Iowa",
+  "Northwestern State",
+  "Stephen F. Austin",
+  "Texas State",
+  "Sam Houston State"
+ ],
+ "Western Washington": [
+  "North Dakota",
+  "Eastern Washington"
+ ],
+ "Central Methodist": [
+  "Tennessee Tech"
+ ],
+ "USC": [
+  "Oregon State"
+ ],
+ "Minnesota": [
+  "Michigan",
+  "Iowa",
+  "Wisconsin",
+  "Kansas",
+  "Ohio State",
+  "Northwestern"
+ ],
+ "Florida": [
+  "Mississippi"
+ ],
+ "Harvard": [
+  "Brown"
+ ],
+ "Yale": [
+  "Pennsylvania",
+  "Cornell",
+  "Harvard",
+  "Fordham"
+ ],
+ "Pace": [
+  "Iona"
+ ],
+ "Dayton": [
+  "Morehead State",
+  "Duquesne",
+  "Jacksonville"
+ ],
+ "Missouri S&T": [
+  "South Dakota",
+  "Butler"
+ ],
+ "Central Washington": [
+  "Montana"
+ ],
+ "Wisconsin": [
+  "Penn State",
+  "Florida State",
+  "Iowa",
+  "Michigan State",
+  "Michigan",
+  "Ohio State"
+ ],
+ "Colorado": [
+  "Kansas",
+  "Florida State",
+  "Oklahoma State",
+  "Missouri",
+  "Texas A&M",
+  "Texas",
+  "Nebraska"
+ ],
+ "Wake Forest": [
+  "North Carolina State",
+  "Boston College",
+  "Maryland",
+  "Miami (FL)",
+  "Navy"
+ ],
+ "Tennessee State": [
+  "Southeast Missouri State",
+  "Florida A&M",
+  "Jacksonville State",
+  "Murray State"
+ ],
+ "Morehouse": [
+  "Prairie View A&M"
+ ],
+ "TCU": [
+  "Oklahoma",
+  "Utah"
+ ],
+ "Southeastern Oklahoma": [
+  "Northwestern State"
+ ],
+ "North Dakota": [
+  "Southern Utah",
+  "Southern Illinois",
+  "UC Davis",
+  "Southeastern Louisiana"
+ ],
+ "Central Arkansas": [
+  "Tulsa",
+  "Nicholls State"
+ ],
+ "Georgia": [
+  "Alabama",
+  "Florida",
+  "Georgia Tech"
+ ],
+ "Nebraska": [
+  "Oklahoma",
+  "Missouri",
+  "Virginia Tech",
+  "Texas Tech"
+ ],
+ "Carthage": [
+  "Campbell"
+ ],
+ "South Florida": [
+  "West Virginia",
+  "Pittsburgh",
+  "Rutgers",
+  "Cincinnati",
+  "Louisville"
+ ],
+ "Brown": [
+  "Holy Cross",
+  "Rhode Island",
+  "Yale"
+ ],
+ "Stonehill": [
+  "Iona"
+ ],
+ "Lafayette": [
+  "Harvard",
+  "Lehigh",
+  "Holy Cross",
+  "Colgate"
+ ],
+ "Clark Atlanta": [
+  "Savannah State"
+ ],
+ "Montana": [
+  "Richmond",
+  "Weber State"
+ ],
+ "Kentucky": [
+  "Tennessee",
+  "Vanderbilt",
+  "Florida",
+  "Alabama",
+  "South Carolina",
+  "Georgia"
+ ],
+ "Connecticut": [
+  "Pittsburgh",
+  "South Florida",
+  "North Carolina",
+  "Rutgers",
+  "West Virginia"
+ ],
+ "Prairie View A&M": [
+  "Grambling State"
+ ],
+ "Oklahoma": [
+  "Florida",
+  "Texas"
+ ],
+ "Cornell": [
+  "Colgate",
+  "Brown",
+  "Princeton",
+  "Pennsylvania",
+  "Columbia",
+  "Harvard"
+ ],
+ "New Hampshire": [
+  "Villanova",
+  "William & Mary",
+  "Northern Iowa"
+ ],
+ "Vanderbilt": [
+  "Wake Forest",
+  "Tennessee",
+  "Georgia",
+  "Mississippi State",
+  "Florida",
+  "Duke"
+ ],
+ "Northwestern": [
+  "Missouri",
+  "Michigan State",
+  "Indiana",
+  "Ohio State"
+ ],
+ "Kentucky Wesleyan": [
+  "Stephen F. Austin"
+ ],
+ "Missouri": [
+  "Kansas",
+  "Oklahoma",
+  "Texas",
+  "Oklahoma State"
+ ],
+ "LSU": [
+  "Alabama",
+  "Georgia",
+  "Florida",
+  "Arkansas",
+  "Mississippi"
+ ],
+ "Brigham Young": [
+  "Arizona",
+  "TCU",
+  "Utah"
+ ],
+ "Sacred Heart": [
+  "Central Connecticut State",
+  "Albany",
+  "Monmouth"
+ ],
+ "Liberty": [
+  "Lafayette",
+  "Presbyterian"
+ ],
+ "San Diego": [
+  "Dayton",
+  "Jacksonville"
+ ],
+ "Oklahoma State": [
+  "Texas Tech",
+  "Oregon",
+  "Texas",
+  "Oklahoma"
+ ],
+ "Lincoln (MO)": [
+  "Arkansas-Pine Bluff"
+ ],
+ "Edward Waters": [
+  "Charleston Southern",
+  "North Carolina Central"
+ ],
+ "Tulsa": [
+  "Arkansas",
+  "East Carolina",
+  "Houston"
+ ],
+ "Texas": [
+  "Texas Tech"
+ ],
+ "Penn State": [
+  "USC",
+  "Iowa"
+ ],
+ "Texas Tech": [
+  "Mississippi",
+  "Oklahoma"
+ ],
+ "Tuskegee": [
+  "Alabama State"
+ ],
+ "Ball State": [
+  "Tulsa",
+  "Buffalo"
+ ],
+ "Alabama": [
+  "Utah",
+  "Florida"
+ ],
+ "Boise State": [
+  "TCU"
+ ],
+ "Birmingham Southern": [],
+ "Utah": [],
+ "Arkansas-Monticello": [],
+ "St. Francis (IL)": [],
+ "Washburn": [],
+ "Methodist": [],
+ "North Carolina Pembroke": [],
+ "Franklin": [],
+ "Marian": [],
+ "Wesley College": []
+}
+Page Rank, d=1.00
+
+File: NCAA_football.csv
+Read Time:       971.336ms
+Processing Time: 338.415ms
+N Iterations:    382
+
+ Rank                        Node     PageRank
+    1                 Mississippi 2.899984e-07
+    2                     Florida 2.259633e-07
+    3                 Wake Forest 1.540047e-07
+    4                     Alabama 1.337360e-07
+    5                  Vanderbilt 1.230875e-07
+    6                        Utah 1.165189e-07
+    7               Virginia Tech 1.163871e-07
+    8              Boston College 1.154638e-07
+    9                Georgia Tech 1.016637e-07
+   10                Oregon State 9.992332e-08
+   11              South Carolina 9.615328e-08
+   12               Florida State 8.620921e-08
+   13              North Carolina 8.336245e-08
+   14                    Maryland 8.300736e-08
+   15                    Oklahoma 7.996730e-08
+   16                  Miami (FL) 7.787010e-08
+   17        North Carolina State 7.706859e-08
+   18                  Texas Tech 7.480208e-08
+   19                         USC 7.119728e-08
+   20                    Virginia 7.008576e-08
+   21                     Clemson 6.732981e-08
+   22                     Georgia 6.374632e-08
+   23                       Texas 6.295818e-08
+   24                         LSU 4.868225e-08
+   25               East Carolina 4.546275e-08
+   26                  Pittsburgh 4.365592e-08
+   27                        Iowa 4.100773e-08
+   28                  Penn State 4.097075e-08
+   29                        Navy 4.080535e-08
+   30                        Duke 4.003304e-08
+   31                  California 3.886753e-08
+   32                      Oregon 3.761708e-08
+   33               West Virginia 3.735367e-08
+   34                  Cincinnati 3.496558e-08
+   35                     Rutgers 3.378898e-08
+   36                         TCU 3.128747e-08
+   37                    Stanford 2.872815e-08
+   38                   Tennessee 2.838386e-08
+   39           Mississippi State 2.612815e-08
+   40                 Connecticut 2.578965e-08
+   41                 Boise State 2.122771e-08
+   42              Michigan State 2.075673e-08
+   43               South Florida 1.993501e-08
+   44                Northwestern 1.949003e-08
+   45                    Kentucky 1.877830e-08
+   46      Middle Tennessee State 1.776684e-08
+   47                    Nebraska 1.662125e-08
+   48                  Ohio State 1.571027e-08
+   49                    Arkansas 1.559176e-08
+   50                    Missouri 1.524829e-08
+   51                     Houston 1.501939e-08
+   52                     Arizona 1.363338e-08
+   53                  Notre Dame 1.349815e-08
+   54                  Ball State 1.270000e-08
+   55               Bowling Green 1.248631e-08
+   56                    Illinois 1.214518e-08
+   57               Southern Miss 1.199237e-08
+   58                       Tulsa 1.127484e-08
+   59                    Colorado 1.084967e-08
+   60                     Buffalo 1.001922e-08
+   61              Oklahoma State 1.001715e-08
+   62                      Auburn 9.825403e-09
+   63                      Kansas 8.618361e-09
+   64                Fresno State 8.438542e-09
+   65                        UCLA 8.432597e-09
+   66                        Rice 8.178295e-09
+   67                  Louisville 7.313074e-09
+   68              Colorado State 5.878043e-09
+   69                   Wisconsin 5.718696e-09
+   70                   Air Force 5.643706e-09
+   71                   Minnesota 5.616056e-09
+   72                    Marshall 5.585107e-09
+   73              Louisiana Tech 5.555536e-09
+   74               Arizona State 5.331404e-09
+   75                     Indiana 5.035963e-09
+   76                        Troy 4.858476e-09
+   77            Western Michigan 4.676415e-09
+   78               Brigham Young 4.666236e-09
+   79                     Wyoming 4.311734e-09
+   80            Central Michigan 4.308586e-09
+   81         Louisiana-Lafayette 4.187067e-09
+   82              Arkansas State 3.527863e-09
+   83                  New Mexico 3.520877e-09
+   84                    Syracuse 3.404939e-09
+   85       Florida International 3.325287e-09
+   86                      Nevada 3.320980e-09
+   87           Northern Illinois 3.088711e-09
+   88            Eastern Michigan 3.041487e-09
+   89                        UTEP 2.953795e-09
+   90                     Memphis 2.808281e-09
+   91            Florida Atlantic 2.410799e-09
+   92                   Texas A&M 2.292242e-09
+   93                    Michigan 2.174800e-09
+   94                      Hawaii 2.166725e-09
+   95                  Miami (OH) 2.150872e-09
+   96                  Kent State 2.104955e-09
+   97                        UNLV 1.878678e-09
+   98                        Army 1.804722e-09
+   99                      Purdue 1.718703e-09
+  100            Louisiana-Monroe 1.495268e-09
+  101                       Akron 1.313815e-09
+  102                         UCF 1.136206e-09
+  103                      Temple 1.061733e-09
+  104                Kansas State 1.045838e-09
+  105            New Mexico State 1.008190e-09
+  106                         UAB 8.883146e-10
+  107                      Toledo 8.213328e-10
+  108                        Ohio 6.882371e-10
+  109              San Jose State 5.290581e-10
+  110                  Utah State 4.476667e-10
+  111                      Baylor 3.243822e-10
+  112             San Diego State 2.893576e-10
+  113                  Iowa State 2.725507e-10
+  114               New Hampshire 2.171365e-10
+  115                      Tulane 1.931840e-10
+  116                   Villanova 1.237307e-10
+  117                       Idaho 1.158336e-10
+  118               James Madison 9.155823e-11
+  119                    Richmond 8.563670e-11
+  120               Northern Iowa 7.847335e-11
+  121                     Montana 7.580134e-11
+  122              William & Mary 7.483134e-11
+  123                 Weber State 5.134154e-11
+  124                    Cal Poly 3.074241e-11
+  125           Southern Illinois 2.852165e-11
+  126          Eastern Washington 1.383233e-11
+  127          North Dakota State 9.924408e-12
+  128            Sacramento State 3.371656e-12
+  129          South Dakota State 2.925473e-12
+  130              Portland State 2.919481e-12
+  131            Youngstown State 2.497332e-12
+  132            Western Illinois 2.156969e-12
+  133               Montana State 1.317924e-12
+  134            Northern Arizona 1.130733e-12
+  135               McNeese State 6.696058e-13
+  136                 Idaho State 5.807936e-13
+  137                    UC Davis 5.126129e-13
+  138            Washington State 4.310596e-13
+  139               Southern Utah 3.973507e-13
+  140                     Liberty 3.782068e-13
+  141              Nicholls State 3.756431e-13
+  142            Central Arkansas 3.710665e-13
+  143              Missouri State 3.651801e-13
+  144              Illinois State 3.237035e-13
+  145                 Texas State 2.780646e-13
+  146                   Lafayette 2.155216e-13
+  147                Presbyterian 1.954755e-13
+  148                       Brown 1.893304e-13
+  149                     Harvard 1.519953e-13
+  150          Northwestern State 1.460201e-13
+  151                  Holy Cross 1.408097e-13
+  152                     Colgate 1.283333e-13
+  153                        Yale 1.059111e-13
+  154           Appalachian State 1.048001e-13
+  155                   San Diego 8.641557e-14
+  156           Sam Houston State 8.166375e-14
+  157                Northeastern 7.682652e-14
+  158           Stephen F. Austin 7.557620e-14
+  159                Rhode Island 7.507921e-14
+  160      Southeastern Louisiana 7.361225e-14
+  161                Jacksonville 7.208124e-14
+  162               Massachusetts 7.120905e-14
+  163                     Wofford 6.992530e-14
+  164                North Dakota 6.669797e-14
+  165                      Lehigh 6.577469e-14
+  166                 Stony Brook 6.390679e-14
+  167                      Dayton 5.871099e-14
+  168                South Dakota 5.866861e-14
+  169          Southern Methodist 5.747850e-14
+  170                        Elon 5.721707e-14
+  171           Northern Colorado 5.457063e-14
+  172                    Washburn 5.391863e-14
+  173                      Furman 5.175660e-14
+  174                       Maine 5.110615e-14
+  175            Eastern Illinois 4.451563e-14
+  176         Charleston Southern 4.321313e-14
+  177                Gardner-Webb 4.175388e-14
+  178                     Cornell 4.070769e-14
+  179                Pennsylvania 3.867878e-14
+  180                     Fordham 3.758301e-14
+  181            Coastal Carolina 3.551993e-14
+  182                      Albany 3.241617e-14
+  183 Virginia Military Institute 3.137270e-14
+  184                     Hofstra 2.958228e-14
+  185            Western Carolina 2.525412e-14
+  186              Morehead State 2.353731e-14
+  187            Eastern Kentucky 2.323727e-14
+  188            Georgia Southern 2.320129e-14
+  189     North Carolina Pembroke 2.155653e-14
+  190                    Duquesne 2.030704e-14
+  191                    Davidson 1.985590e-14
+  192                   Princeton 1.924834e-14
+  193             Tennessee State 1.828494e-14
+  194                    Delaware 1.612922e-14
+  195            Tennessee-Martin 1.524396e-14
+  196          Jacksonville State 1.485206e-14
+  197                    Bucknell 1.167722e-14
+  198                      Towson 9.922822e-15
+  199                    Monmouth 9.247803e-15
+  200               Robert Morris 8.799833e-15
+  201                     Samford 8.499105e-15
+  202              Tennessee Tech 7.913808e-15
+  203                 Austin Peay 7.481517e-15
+  204                       Drake 7.364951e-15
+  205                Murray State 7.213938e-15
+  206            Western Kentucky 7.069332e-15
+  207                    Columbia 7.012211e-15
+  208   Central Connecticut State 6.450880e-15
+  209                     Citadel 6.215817e-15
+  210                      Butler 5.955642e-15
+  211    Southeast Missouri State 5.583747e-15
+  212                 Florida A&M 5.302316e-15
+  213                Sacred Heart 5.215215e-15
+  214           Bryant University 4.605081e-15
+  215                      Marist 4.132314e-15
+  216        South Carolina State 3.170382e-15
+  217                  Valparaiso 2.931713e-15
+  218                Morgan State 2.292569e-15
+  219              Delaware State 2.157977e-15
+  220                      Rhodes 1.911606e-15
+  221                    Franklin 1.231086e-15
+  222                     Hampton 8.465624e-16
+  223             Bethune-Cookman 7.308258e-16
+  224                 North Texas 7.306479e-16
+  225                      Wagner 6.208437e-16
+  226                  Georgetown 6.112137e-16
+  227               Winston-Salem 5.478003e-16
+  228               Norfolk State 4.750160e-16
+  229                      Marian 3.787575e-16
+  230            St. Francis (IL) 3.787575e-16
+  231      North Carolina Central 9.487293e-17
+  232                        Iona 8.289950e-17
+  233                   Stonehill 8.020882e-17
+  234          North Carolina A&T 7.185209e-17
+  235              Savannah State 7.077210e-17
+  236          Fayetteville State 1.400793e-17
+  237              Wesley College 1.071005e-17
+  238    Mississippi Valley State 1.046962e-17
+  239               Edward Waters 1.044946e-17
+  240                      Howard 1.044946e-17
+  241             Grambling State 5.924445e-18
+  242            Prairie View A&M 2.689810e-18
+  243         Southern University 2.373449e-18
+  244               Jackson State 2.199196e-18
+  245                 Alabama A&M 1.898689e-18
+  246               Alabama State 1.798441e-18
+  247                Alcorn State 1.510252e-18
+  248         Arkansas-Pine Bluff 1.372771e-18
+  249                    Tuskegee 2.803404e-19
+  250         Arkansas-Monticello 1.576468e-19
+  251             Henderson State 1.576468e-19
+  252              Texas Southern 1.560914e-19
+  253                        Pace 0.000000e+00
+  254                Missouri S&T 0.000000e+00
+  255                    Langston 0.000000e+00
+  256          Central Washington 0.000000e+00
+  257          Texas A&M-Commerce 0.000000e+00
+  258           Southern Virginia 0.000000e+00
+  259            North Greenville 0.000000e+00
+  260                   Morehouse 0.000000e+00
+  261       Southeastern Oklahoma 0.000000e+00
+  262                Angelo State 0.000000e+00
+  263                    Carthage 0.000000e+00
+  264                   Mars Hill 0.000000e+00
+  265               Clark Atlanta 0.000000e+00
+  266                 Chattanooga 0.000000e+00
+  267           Southwest Baptist 0.000000e+00
+  268           Central Methodist 0.000000e+00
+  269          Western Washington 0.000000e+00
+  270        Texas A&M-Kingsville 0.000000e+00
+  271                  Assumption 0.000000e+00
+  272                     Lambuth 0.000000e+00
+  273                     Shorter 0.000000e+00
+  274                    Campbell 0.000000e+00
+  275                 Adams State 0.000000e+00
+  276              Virginia State 0.000000e+00
+  277       East Central Oklahoma 0.000000e+00
+  278               Indiana State 0.000000e+00
+  279               Johnson Smith 0.000000e+00
+  280              Western Oregon 0.000000e+00
+  281                  Upper Iowa 0.000000e+00
+  282               Texas College 0.000000e+00
+  283        Webber International 0.000000e+00
+  284            St. Francis (PA) 0.000000e+00
+  285             Delaware Valley 0.000000e+00
+  286  Southern Connecticut State 0.000000e+00
+  287                      Albion 0.000000e+00
+  288             Bentley College 0.000000e+00
+  289                    Tusculum 0.000000e+00
+  290                    Benedict 0.000000e+00
+  291        New Mexico Highlands 0.000000e+00
+  292                West Chester 0.000000e+00
+  293             Montana-Western 0.000000e+00
+  294             Glenville State 0.000000e+00
+  295   Concordia University (WI) 0.000000e+00
+  296                    Faulkner 0.000000e+00
+  297         Wisconsin-La Crosse 0.000000e+00
+  298                   Merrimack 0.000000e+00
+  299                      Quincy 0.000000e+00
+  300                 Delta State 0.000000e+00
+  301               Azusa Pacific 0.000000e+00
+  302           Concordia College 0.000000e+00
+  303             Southern Oregon 0.000000e+00
+  304                West Georgia 0.000000e+00
+  305             Culver-Stockton 0.000000e+00
+  306                      Chowan 0.000000e+00
+  307                   Dartmouth 0.000000e+00
+  308           Kentucky Wesleyan 0.000000e+00
+  309                 Dixie State 0.000000e+00
+  310                        Shaw 0.000000e+00
+  311                Lenoir-Rhyne 0.000000e+00
+  312                William Penn 0.000000e+00
+  313             St. Cloud State 0.000000e+00
+  314                Lincoln (MO) 0.000000e+00
+  315               Central State 0.000000e+00
+  316                  Washington 0.000000e+00
+  317              Humboldt State 0.000000e+00
+  318                 St. Ambrose 0.000000e+00
+  319       Cumberland University 0.000000e+00
+  320         Birmingham Southern 0.000000e+00
+  321            Baker University 0.000000e+00
+  322                    Stillman 0.000000e+00
+  323                   Methodist 0.000000e+00
+  324                 Livingstone 0.000000e+00

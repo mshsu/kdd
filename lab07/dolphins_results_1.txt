@@ -1,0 +1,70 @@
+Page Rank, d=1.00
+
+File: dolphinsDir.csv
+Read Time:       193.356ms
+Processing Time: 91.075ms
+N Iterations:    162
+
+ Rank        Node  PageRank
+    1        Grin  0.037732
+    2         SN4  0.034588
+    3     Topless  0.034588
+    4       Scabs  0.031443
+    5     Trigger  0.031443
+    6         Web  0.028308
+    7         Jet  0.028308
+    8     Kringel  0.028300
+    9   Patchback  0.028299
+   10    Gallatin  0.025163
+   11  Beescratch  0.025161
+   12         SN9  0.025156
+   13        SN63  0.025155
+   14     Feather  0.022018
+   15      Upbang  0.022017
+   16       SN100  0.022012
+   17    Haecksel  0.022011
+   18        TR99  0.022011
+   19       Jonah  0.022010
+   20     Stripes  0.022010
+   21        DN21  0.018872
+   22        TR77  0.018867
+   23        SN96  0.018867
+   24      Double  0.018867
+   25        Beak  0.018866
+   26        Hook  0.018866
+   27        MN83  0.018866
+   28       MN105  0.018866
+   29        SN90  0.015727
+   30     Number1  0.015726
+   31        DN63  0.015725
+   32          PL  0.015724
+   33       Oscar  0.015723
+   34         Zap  0.015722
+   35        Fish  0.015722
+   36    Shmuddel  0.015722
+   37        DN16  0.012582
+   38        Knit  0.012580
+   39      Bumper  0.012578
+   40      TSN103  0.012577
+   41     Thumper  0.012577
+   42 Ripplefluke  0.009436
+   43         Mus  0.009436
+   44       Notch  0.009436
+   45        MN60  0.009433
+   46         CCL  0.009433
+   47      Zipfel  0.009433
+   48        Wave  0.006291
+   49        SN89  0.006290
+   50         Vau  0.006289
+   51       TSN83  0.006289
+   52        TR88  0.006289
+   53       TR120  0.006289
+   54         Zig  0.003146
+   55        TR82  0.003145
+   56       Quasi  0.003145
+   57        MN23  0.003145
+   58        Fork  0.003144
+   59    Whitetip  0.003144
+   60        SMN5  0.003144
+   61       Cross  0.003144
+   62        Five  0.003144

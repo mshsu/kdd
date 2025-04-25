@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b1f284a2-e83f-475c-9228-e51f2b894c25" name="unix2.csc.calpoly.edu">
+        <fileTransfer rootFolder="/home/mshsu" accessType="SFTP" host="unix3.csc.calpoly.edu" port="22" sshConfigId="572371ab-f1f6-44fa-809f-e849d766b5de" sshConfig="mshsu@unix3.csc.calpoly.edu:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

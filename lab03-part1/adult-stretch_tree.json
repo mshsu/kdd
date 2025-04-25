@@ -1,0 +1,45 @@
+{
+ "dataset": "adult-stretch.csv",
+ "node": {
+  "var": "Act",
+  "edges": [
+   {
+    "edge": {
+     "value": "STRETCH",
+     "leaf": {
+      "decision": "T",
+      "p": 1
+     }
+    }
+   },
+   {
+    "edge": {
+     "value": "DIP",
+     "node": {
+      "var": "Age",
+      "edges": [
+       {
+        "edge": {
+         "value": "ADULT",
+         "leaf": {
+          "decision": "T",
+          "p": 1
+         }
+        }
+       },
+       {
+        "edge": {
+         "value": "CHILD",
+         "leaf": {
+          "decision": "F",
+          "p": 1
+         }
+        }
+       }
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

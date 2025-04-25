@@ -1,0 +1,115 @@
+CSC 466
+Dekhtyar, Fall 2023
+
+# NAMES AND EMAILS
+- Martin Hsu | mshsu@calpoly.edu
+- Brendan Callender | bscallen@calpoly.edu
+
+# SUBMISSION DESCRIPTION
+Python Scripts
+
+# INSTRUCTIONS
+Must have the following packages:
+- pandas, numpy, sys, json, typing, matplotlib
+
+Structure:
+- kmeans.py - Performs the K-Means clustering algorithm on a given dataset and
+    prints a performance report.
+- hclustering.py - Performs the hierarchal clustering algorithm on a given
+    dataset using average linkage. It both prints a performance report and
+    produces a dendrogram in the form of a JSON file.
+- dbscan.py - Performs the DBSCAN clustering algorithm on a given dataset and
+    prints a performance report.
+
+How to run
+1. Setup
+    a. Load the files into your environment of choice. Make sure that all python
+        scripts are together in the same folder!!!! That way the dependent
+        scripts can import and run functions from other scripts.
+2. How to run kmeans.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 kmeans.py <Filename.csv> <k> [--id <rowId>] [--header <headerFile.txt>] [--nostd]
+        - <Filename.csv> is the data file path
+        - <k> should be an integer representing the number of desired clusters
+        - [--id <rowId>] is an optional parameter that includes the name of the
+            index column
+        - [--header <headerFile.txt>] is an optional parameter that includes
+            the name of the file containing column names. The column names
+            should be in a single line and comma-delimited.
+        - [--nostd] is an option where if it is specified, the data is not
+            standardized. By default, the columns will be standardized by
+            subtracting the column mean (centering) and dividing the result
+            by the column standard deviation (normalizing).
+3. How to run hclustering.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 hclustering.py <Filename.csv> <threshold> [--id <rowId>] [--header <headerFile.txt>] [--nclust] [--nostd] [--notree]
+        - <Filename.csv> is the data file path
+        - <threshold> is the threshold at which the dendrogram is cut to create
+            clusters. This will either be a float if the threshold is a height,
+            and an int of the threshold is a number of clusters.
+        - [--id <rowId>] s an optional parameter that includes the name of the
+            index column
+        - [--header <headerFile.txt>] is an optional parameter that includes
+            the name of the file containing column names. The column names
+            should be in a single line and comma-delimited.
+        - [--nclust] is an option where if specified, the threshold will be
+            interpreted to be a number of clusters and the tree will be cut
+            to form clusters accordingly. By default, the tree is cut by height.
+        - [--nostd] is an option where if it is specified, the data is not
+            standardized. By default, the columns will be standardized by
+            subtracting the column mean (centering) and dividing the result
+            by the column standard deviation (normalizing).
+4. How to run dbscan.py
+    b. In the command line, navigate to the directory where the scripts are.
+    c. In the command line, use the following syntax:
+       $ python3 dbscan.py <input file> <eps> <minpts>
+        - <input> is the data file path
+        - <eps> is the vicinity radius "epsilon" by which neighboring points
+            are determined in the DBSCAN algorithm, represented as a float
+        - <minpts> is an integer representing the minimum number of points
+            needed for a point to be a core point.
+5. Expected Output:
+    a. All clustering algorithms should expect printed output in the following
+        format in the header:
+        - The data file name
+        - Specified parameters (eg. "Number of clusters")
+        - Whether the data was standardized or not
+        - Intercluster distances
+    b. Each cluster produced will contain the following information in the
+        printed output:
+        - Cluster number
+        - The center (both standardized and unstandardized, unless "no
+            standardization" has been specified)
+        - Max, min, and avg distance to center (standardized unless "no
+            standardization" has been specified)
+        - Cluster sum of squared errors (SSE) (standardized unless "no
+            standardization" has been specified)
+        - List of all points in the cluster and their coordinates (both
+            standardized and unstandardized, unless "no standardization" has
+            been specified)
+    c. Additionally:
+	- hclustering.py will produce a JSON formatted dendrogram
+            that has been formatted according to Dr. Dekhtyar's proprietary
+            specifications.
+	- dbscan.py will produce a "cluster" report for the outliers.
+
+
+# PROGRAMS/FILES
+Python scripts:
+- kmeans.py
+- hclustering.py
+- dbscan.py
+Other:
+- README
+- Lab04-report.pdf
+
+# EXPECTED ERRORS:
+- You must have all python scripts in the SAME LOCATION or there will be errors.
+- You must enter the correct datatypes into the terminal or there will be
+    errors.
+- The header file MUST be a comma-separated plaintext file of column names,
+    equal to the number of non-class attributes, or there will be errors.
+- The data file MUST BE formatted so that there is no header and the first row
+    is a "column restriction row," or there WILL be errors.

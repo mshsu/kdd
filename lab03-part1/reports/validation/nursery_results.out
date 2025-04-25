@@ -1,0 +1,25 @@
+Martin Hsu - mshsu@calpoly.edu
+Lana Huynh - lmhuynh@calpoly.edu
+
+Data: nursery.csv
+Class Attribute: class
+Validation: 10-Fold Cross Validation
+
+Confusion Matrix:
+obs         not_recom  priority  recommend  spec_prior  very_recom
+pred                                                              
+not_recom        4320         0          0           0           0
+priority            0      2412          2        1578         328
+recommend           0         0          0           0           0
+spec_prior          0      1854          0        2466           0
+very_recom          0         0          0           0           0
+
+Records Classified: 12960
+Records Correctly Classified: 9198
+Records Incorrectly Classified: 3762
+Overall Accuracy: 0.710
+Average Accuracy: 0.710
+Overall Error Rate: 0.290
+                    not_recom  priority  recommend  spec_prior  very_recom
+Overall Precision:        1.0  0.558333        1.0    0.570833         1.0
+Overall Recall:           1.0  0.565401        0.0    0.609792         0.0

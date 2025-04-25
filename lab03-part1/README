@@ -1,0 +1,131 @@
+# NAMES AND EMAILS
+- Martin Hsu | mshsu@calpoly.edu
+- Lana Huynh | lmhuynh@calpoly.edu
+
+# SUBMISSION DESCRIPTION
+Python Scripts
+
+# INSTRUCTIONS
+Must have the following packages:
+- pandas, numpy, sys, json, typing
+
+Structure:
+- induceC45.py - Fits C4.5 decision tree to training data
+- classify.py - Predicts on test data using JSON decision tree, then compiles a
+    performance report on the decision tree and returns the test data enriched
+    with predictions.
+- validation.py - Performs k-fold cross validation or leave-one-out cross
+    validation on a training dataset. It then compiles a performance report on
+    the process.
+
+How to run
+1. Setup
+    a. Load the files into your environment of choice. Make sure that all python
+        scripts are together in the same folder!!!! That way the dependent
+        scripts can import and run functions from other scripts.
+2. How to run induceC45.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 induceC45.py <TrainingSetFile.csv> <threshold> [<restrictionsFile>] [--gratio] [--nooutput] [--noprint]
+        - <TrainingSetFile.csv> is the training data file path
+        - <threshold> should be a float representing the C4.5 threshold
+        - [<restrictionsFile>] is an optional file path containing a
+            newline-delimited vector of 1s and 0s, where 1 means that the
+            corresponding column in that position in the training data should be
+            included, and 0 means that it should not.
+        - [--gratio] is an option that when included at the end means that the
+            C4.5 algorithm should use the information gain ratio instead of
+            information gain
+        - [--nooutput] is an option that when included at the end means that
+            no decision tree JSON file will be output. Omitting this means that
+            a JSON file will be output.
+        - [--noprint] is an option that when included at the end means that no
+            decision tree will be printed to the console. Omitting this means
+            that a decision tree will be printed to the console.
+    c. If the [--nooutput] option has not been included, then the JSON decision
+        tree should appear in your directory. You may now use it in classify.py.
+3. How to run classify.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 classify.py <CSVFile.csv> <JSONFile.json> [--test] [--nooutput] [--noprint]
+        - <CSVFile.csv> is the data file path
+        - <JSONFile.json> is the JSON decision tree file path
+        - [--test] means that the data is a test dataset that has no class
+            attribute.
+        - [--nooutput] is an option that when included at the end means that
+            no enriched CSV dataset or report will be output. Omitting this
+            means that the CSV dataset enriched with predictions and a TXT
+            performance report will be output.
+        - [--noprint] is an option that when included at the end means that no
+            report will be printed to the console. Omitting this means
+            that a performance report will be printed to the console.
+    c. If the [--nooutput] option has not been included, then the CSV dataset
+            enriched with predictions and a TXT performance report should appear
+            in your directory.
+       The TXT performance report for training datasets will include:
+        - The name of the data file
+        - The name of the JSON decision tree file
+        - The name of the class attribute
+        - A confusion matrix
+        - The total records classified, as well as the number of records
+            correctly and incorrectly classified
+        - The overall accuracy and error rate
+      The TXT performance report for test datasets will include:
+        - The name of the data file
+        - The name of the JSON decision tree file
+        - Frequency of each class label
+        - The total records classified
+4. How to run validation.py
+    a. First ensure that both induceC45.py and classify.py are in the same
+        directory, since validation.py imports functionality from both these
+        scripts.
+    b. In the command line, navigate to the directory where the scripts are.
+    c. In the command line, use the following syntax:
+       $ python3 validation.py <TrainingSetFile.csv> <threshold> <nfolds> [<restrictionsFile>] [--gratio] [--nooutput] [--noprint]
+        - <TrainingSetFile.csv> is the training data file path
+        - <threshold> should be a float representing the C4.5 threshold
+        - <nfolds> should be an integer representing the number of folds desired
+            in the k-fold cross validation. 0 means no cross-validation, and
+            -1 means to use leave-one-out validation.
+        - [<restrictionsFile>] is an optional file path containing a
+            newline-delimited vector of 1s and 0s, where 1 means that the
+            corresponding column in that position in the training data should be
+            included, and 0 means that it should not.
+        - [--gratio] is an option that when included at the end means that the
+            C4.5 algorithm should use the information gain ratio instead of
+            information gain
+        - [--nooutput] is an option that when included at the end means that
+            no TXT report file will be output. Omitting this means that
+            a TXT performance report will be output.
+        - [--noprint] is an option that when included at the end means that no
+            performance report will be printed to the console. Omitting this
+            means that a performance report will be printed to the console.
+       The TXT performance report for validation.py will include:
+        - The name of the data file
+        - The name of the class attribute
+        - The type of validation performed
+        - A confusion matrix
+        - The total records classified, as well as the number of records
+            correctly and incorrectly classified
+        - The overall accuracy, average accuracy and overall error rate
+        - The overall precision, recall, PF and F measure
+
+# PROGRAMS/FILES
+Python scripts:
+- induceC45.py
+- classify.py
+- validation.py
+TXT reports (all used threshold 0 except nursery):
+- adult-stretch_results.out
+- adult+stretch_results.out
+- yellow-small_results.out
+- yellow-small+adult-stretch_results.out
+- agaricus-lepiota_results.out
+- nursery_results.out
+Other:
+- README
+
+# EXPECTED ERRORS:
+- You must have all python scripts in the SAME LOCATION or there will be errors.
+- The restrictions file MUST be a comma-separated plaintext file of 1s and 0s,
+    equal to the number of non-class attributes, or there will be errors.

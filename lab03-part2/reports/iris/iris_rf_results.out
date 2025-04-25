@@ -1,0 +1,23 @@
+Martin Hsu - mshsu@calpoly.edu
+Lana Huynh - lmhuynh@calpoly.edu
+
+Data: iris.data.csv
+Class Attribute: species
+Validation: 10-Fold Cross Validation
+
+Confusion Matrix:
+obs              Iris-setosa  Iris-versicolor  Iris-virginica
+pred                                                         
+Iris-setosa               49                0               0
+Iris-versicolor            1               46               3
+Iris-virginica             0                4              47
+
+Records Classified: 150
+Records Correctly Classified: 142
+Records Incorrectly Classified: 8
+Overall Accuracy: 0.947
+Average Accuracy: 0.947
+Overall Error Rate: 0.053
+                    Iris-setosa  Iris-versicolor  Iris-virginica
+Overall Precision:         1.00             0.92        0.921569
+Overall Recall:            0.98             0.92        0.940000

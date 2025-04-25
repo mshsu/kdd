@@ -1,0 +1,60 @@
+# Martin Hsu
+# mshsu@calpoly.edu
+# CSC 466 Fall 2023
+
+# SUBMISSION DESCRIPTION
+Python Scripts
+
+# RUN INSTRUCTIONS
+Must have the following packages:
+- pandas, numpy, sys, time, typing
+
+Structure:
+- pageRank.py - Implements PageRank algorithm and produces printed report
+
+How to run
+1. Setup
+    a. Load the files into your environment of choice. Make sure that all python
+        scripts are together in the same folder!!!! That way the dependent
+        scripts can import and run functions from other scripts.
+2. How to run pageRank.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 pageRank.py <nodeFile.csv> <d> [--dir]
+        - <nodeFile> is the appropriately formatted graph representation file
+            of edges as node pairs and their values
+        - <d> is the d parameter in PageRank, representing the probability
+            of traversing an edge (versus 1-d being the probability of
+            spontaneously jumping to another node). Must be between 0 and 1,
+            inclusive
+        - --dir is an optional parameter to indicate if the nodeFile represents
+            a directed graph. By default, an undirected graph is assumed.
+    c. The following expected output should be printed to the terminal:
+        - The value of d
+        - The graph node/edge pair filename
+        - The data read and PageRank processing time
+        - The number of iterations for PageRank to converge
+        - The ranking, name and PageRank score of all nodes in the graph
+
+# PROGRAMS/FILES
+Python scripts:
+- pageRank.py
+Output files:
+- dolphins_results_0.25.txt, dolphins_results_0.5.txt,
+    dolphins_results_0.75.txt, dolphins_results_1.txt - PageRank results for
+    d = 0.25, 0.5, 0.75, 1 for dolphinsDir.csv
+- lesmis_results_0.25.txt, lesmis_results_0.5.txt, lesmis_results_0.75.txt,
+    lesmis_results_1.txt - PageRank results for d = 0.25, 0.5, 0.75, 1 for
+    lesmisDir.csv
+- NCAA_football_results_0.25.txt, NCAA_football_results_0.5.txt,
+    NCAA_football_results_0.75.txt, NCAA_football_results_1.txt - PageRank
+    results for d = 0.25, 0.5, 0.75, 1 for NCAA_football.csv
+Other:
+- README
+- Lab07-report.pdf
+
+# EXPECTED ERRORS:
+- The python scripts MUST ALL BE IN THE SAME FOLDER, or there will be errors.
+- Please enter appropriate datatypes and filetypes in the terminal, or there
+    will be errors.
+- Please ensure all filetypes are appropriately formatted.

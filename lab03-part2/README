@@ -1,0 +1,223 @@
+# NAMES AND EMAILS
+- Martin Hsu | mshsu@calpoly.edu
+- Lana Huynh | lmhuynh@calpoly.edu
+
+# SUBMISSION DESCRIPTION
+Python Scripts
+
+# INSTRUCTIONS
+Must have the following packages:
+- pandas, numpy, sys, json, typing
+
+Structure:
+- induceC45.py - Fits C4.5 decision tree to training data
+- classify.py - Predicts on test data using JSON decision tree, then compiles a
+    performance report on the decision tree and returns the test data enriched
+    with predictions.
+- validation.py - Performs k-fold cross validation or leave-one-out cross
+    validation on a training dataset. It then compiles a performance report on
+    the process.
+- randomforest.py - Performs k-fold random forest ensemble classifier validation
+    on a training dataset. It then compiles a performance report on the process.
+- knn.py - Performs lazy k-nearest neighbors classification on a dataset. It
+    then compiles a performane report on the process.
+
+How to run
+1. Setup
+    a. Load the files into your environment of choice. Make sure that all python
+        scripts are together in the same folder!!!! That way the dependent
+        scripts can import and run functions from other scripts.
+2. How to run induceC45.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 induceC45.py <TrainingSetFile.csv> <threshold> [<restrictionsFile>] [--gratio] [--nooutput] [--noprint]
+        - <TrainingSetFile.csv> is the training data file path
+        - <threshold> should be a float representing the C4.5 threshold
+        - [<restrictionsFile>] is an optional file path containing a
+            newline-delimited vector of 1s and 0s, where 1 means that the
+            corresponding column in that position in the training data should be
+            included, and 0 means that it should not.
+        - [--gratio] is an option that when included at the end means that the
+            C4.5 algorithm should use the information gain ratio instead of
+            information gain
+        - [--nooutput] is an option that when included at the end means that
+            no decision tree JSON file will be output. Omitting this means that
+            a JSON file will be output.
+        - [--noprint] is an option that when included at the end means that no
+            decision tree will be printed to the console. Omitting this means
+            that a decision tree will be printed to the console.
+    c. If the [--nooutput] option has not been included, then the JSON decision
+        tree should appear in your directory. You may now use it in classify.py.
+3. How to run classify.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 classify.py <CSVFile.csv> <JSONFile.json> [--test] [--nooutput] [--noprint]
+        - <CSVFile.csv> is the data file path
+        - <JSONFile.json> is the JSON decision tree file path
+        - [--test] means that the data is a test dataset that has no class
+            attribute.
+        - [--nooutput] is an option that when included at the end means that
+            no enriched CSV dataset or report will be output. Omitting this
+            means that the CSV dataset enriched with predictions and a TXT
+            performance report will be output.
+        - [--noprint] is an option that when included at the end means that no
+            report will be printed to the console. Omitting this means
+            that a performance report will be printed to the console.
+    c. If the [--nooutput] option has not been included, then the CSV dataset
+            enriched with predictions and a TXT performance report should appear
+            in your directory.
+       The TXT performance report for training datasets will include:
+        - The name of the data file
+        - The name of the JSON decision tree file
+        - The name of the class attribute
+        - A confusion matrix
+        - The total records classified, as well as the number of records
+            correctly and incorrectly classified
+        - The overall accuracy and error rate
+      The TXT performance report for test datasets will include:
+        - The name of the data file
+        - The name of the JSON decision tree file
+        - Frequency of each class label
+        - The total records classified
+4. How to run validation.py
+    a. First ensure that both induceC45.py and classify.py are in the same
+        directory, since validation.py imports functionality from both these
+        scripts.
+    b. In the command line, navigate to the directory where the scripts are.
+    c. In the command line, use the following syntax:
+       $ python3 validation.py <TrainingSetFile.csv> <threshold> <nfolds> [<restrictionsFile>] [--gratio] [--nooutput] [--noprint]
+        - <TrainingSetFile.csv> is the training data file path
+        - <threshold> should be a float representing the C4.5 threshold
+        - <nfolds> should be an integer representing the number of folds desired
+            in the k-fold cross validation. 0 means no cross-validation, and
+            -1 means to use leave-one-out validation.
+        - [<restrictionsFile>] is an optional file path containing a
+            newline-delimited vector of 1s and 0s, where 1 means that the
+            corresponding column in that position in the training data should be
+            included, and 0 means that it should not.
+        - [--gratio] is an option that when included at the end means that the
+            C4.5 algorithm should use the information gain ratio instead of
+            information gain
+        - [--nooutput] is an option that when included at the end means that
+            no TXT report file will be output. Omitting this means that
+            a TXT performance report will be output.
+        - [--noprint] is an option that when included at the end means that no
+            performance report will be printed to the console. Omitting this
+            means that a performance report will be printed to the console.
+       The TXT performance report for validation.py will include:
+        - The name of the data file
+        - The name of the class attribute
+        - The type of validation performed
+        - A confusion matrix
+        - The total records classified, as well as the number of records
+            correctly and incorrectly classified
+        - The overall accuracy, average accuracy and overall error rate
+        - The overall precision and recall for each class label
+5. How to run randomforest.py
+    a. First ensure that induceC45.py, classify.py, and validation.py are in the
+        same directory, since randomforest.py imports functionality from all
+        these scripts.
+    b. In the command line, navigate to the directory where the scripts are.
+    c. In the command line, use the following syntax:
+       $ python3 randomforest.py <TrainingSetFile.csv> <NumAttributes> <NumDataPoints> <NumTrees> [<restrictionsFile>] [--gratio] [--nooutput] [--noprint]
+        - <TrainingSetFile.csv> is the training data file path
+        - <NumAttributes> should be an int representing the number of attributes
+            to use to construct each decision tree in the random forest
+            classifier.
+        - <NumDataPoints> should be an int representing the number of datapoints
+            to sample with replacement to create each sample that each decision
+            tree in the random forest classifier will be trained on.
+        - <NumTrees> should be an int representing the number of trees that will
+            be in the random forest classifier.
+        - [<restrictionsFile>] is an optional file path containing a
+            newline-delimited vector of 1s and 0s, where 1 means that the
+            corresponding column in that position in the training data should be
+            included, and 0 means that it should not.
+        - [--gratio] is an option that when included at the end means that the
+            C4.5 algorithm should use the information gain ratio instead of
+            information gain
+        - [--nooutput] is an option that when included at the end means that
+            no TXT report file will be output. Omitting this means that
+            a TXT performance report will be output.
+        - [--noprint] is an option that when included at the end means that no
+            performance report will be printed to the console. Omitting this
+            means that a performance report will be printed to the console.
+       The TXT performance report for randomforest.py will include:
+        - The name of the data file
+        - The name of the class attribute
+        - The type of validation performed
+        - A confusion matrix
+        - The total records classified, as well as the number of records
+            correctly and incorrectly classified
+        - The overall accuracy, average accuracy and overall error rate
+        - The overall precision and recall for each class label
+6. How to run knn.py
+    a. First ensure that classify.py is in the same directory, since knn.py
+        imports functionality from this script.
+    b. In the command line, navigate to the directory where the scripts are.
+    c. In the command line, use the following syntax:
+       $ python3 knn.py <CSVFile.csv> <NumNeighbors> [<restrictionsFile>] [--nooutput] [--noprint]
+        - <TrainingSetFile.csv> is the training data file path
+        - <NumNeighbors> should be an int representing the number of neighbors
+            to evaluate when classifying each datapoint.
+        - [<restrictionsFile>] is an optional file path containing a
+            newline-delimited vector of 1s and 0s, where 1 means that the
+            corresponding column in that position in the data should be
+            included, and 0 means that it should not.
+        - [--nooutput] is an option that when included at the end means that
+            no TXT report file will be output. Omitting this means that
+            a TXT performance report will be output.
+        - [--noprint] is an option that when included at the end means that no
+            performance report will be printed to the console. Omitting this
+            means that a performance report will be printed to the console.
+       The TXT performance report for randomforest.py will include:
+        - The name of the data file
+        - The name of the class attribute
+        - A confusion matrix
+        - The total records classified, as well as the number of records
+            correctly and incorrectly classified
+        - The overall accuracy, average accuracy and overall error rate
+        - The overall precision and recall for each class label
+
+
+# PROGRAMS/FILES
+Python scripts:
+- induceC45.py
+- classify.py
+- validation.py
+- randomforest.py
+- knn.py
+Model reports:
+- agaricus-lepiota_c45_results.out - report generated by 7-fold cross-validating
+    c4.5 decision tree model with threshold 0.05 on mushrooms data.
+- agaricus-lepiota_rf_results.out - report generated by 10-fold cross-validating
+    random forest model with 5 attributes per tree, 100 datapoints per tree
+    bootstrap training set, and 7 trees on mushrooms data.
+- agaricus-lepiota_knn_results.out - report generated by running 3-nearest
+    neighbors algorithm on mushrooms data
+- heart_c45_results.out - report generated by 5-fold cross-validating c4.5
+    decision tree model with threshold 0.01 on heart data.
+- heart_rf_results.out - report generated by 10-fold cross-validating random
+    forest model with 5 attributes per tree, 100 datapoints per tree bootstrap
+    training set, and 7 trees on heart data.
+- heart_knn_results.out - report generated by running 2-nearest neighbors
+    algorithm on heart data
+- iris_c45_results.out - report generated by 2-fold cross-validating c4.5
+    decision tree model with threshold 0.05 on iris data.
+- iris_rf_results.out - report generated by 10-fold cross-validating random
+    forest model with 4 attributes per tree, 50 datapoints per tree bootstrap
+    training set, and 10 trees on iris data
+- iris_knn_results.out - report generated by running 3-nearest neighbors
+    algorithm on iris data.
+Other:
+- README
+- Lab03-report.pdf
+
+# EXPECTED ERRORS:
+- You must have all python scripts in the SAME LOCATION or there will be errors.
+- You must enter the correct datatypes into the terminal or there will be
+    errors.
+- The restrictions file MUST be a comma-separated plaintext file of 1s and 0s,
+    equal to the number of non-class attributes, or there will be errors.
+- The numbers in the model output are not the same as in the lab -- this is
+    because the results are from a separate run.

@@ -1,0 +1,332 @@
+Page Rank, d=0.25
+
+File: NCAA_football.csv
+Read Time:       868.828ms
+Processing Time: 146.919ms
+N Iterations:    9
+
+ Rank                        Node  PageRank
+    1                     Montana  0.005375
+    2                 Weber State  0.005142
+    3                     Florida  0.005127
+    4                    Richmond  0.005108
+    5                 Mississippi  0.005073
+    6                        Utah  0.005021
+    7                    Oklahoma  0.005000
+    8                  Texas Tech  0.004899
+    9                       Texas  0.004734
+   10               James Madison  0.004662
+   11                North Dakota  0.004612
+   12          Northwestern State  0.004590
+   13                         TCU  0.004440
+   14                Oregon State  0.004426
+   15            Central Arkansas  0.004422
+   16                         USC  0.004412
+   17             Grambling State  0.004399
+   18                South Dakota  0.004309
+   19           Appalachian State  0.004304
+   20        South Carolina State  0.004206
+   21                       Tulsa  0.004204
+   22                   Villanova  0.004200
+   23                Jacksonville  0.004147
+   24               Virginia Tech  0.004115
+   25                     Liberty  0.004099
+   26                        Iona  0.004071
+   27               Northern Iowa  0.004067
+   28                Sacred Heart  0.004055
+   29                     Alabama  0.004047
+   30               New Hampshire  0.004025
+   31           Bryant University  0.003953
+   32              Savannah State  0.003941
+   33               McNeese State  0.003924
+   34                   San Diego  0.003910
+   35                      Dayton  0.003905
+   36                Georgia Tech  0.003905
+   37                       Brown  0.003901
+   38                       Drake  0.003899
+   39                  Penn State  0.003872
+   40                  Cincinnati  0.003866
+   41                     Samford  0.003854
+   42            Tennessee-Martin  0.003827
+   43                 Boise State  0.003811
+   44                 Texas State  0.003797
+   45            Prairie View A&M  0.003768
+   46                     Georgia  0.003737
+   47                      Albany  0.003734
+   48                      Furman  0.003722
+   49               West Virginia  0.003722
+   50                  Pittsburgh  0.003716
+   51           Southern Illinois  0.003711
+   52                        Iowa  0.003705
+   53              North Carolina  0.003689
+   54                      Butler  0.003683
+   55                Presbyterian  0.003681
+   56               East Carolina  0.003680
+   57              Boston College  0.003647
+   58            Sacramento State  0.003632
+   59                 Wake Forest  0.003620
+   60                     Harvard  0.003619
+   61                  Ohio State  0.003600
+   62                    Missouri  0.003595
+   63                     Wofford  0.003567
+   64                       Maine  0.003560
+   65               Florida State  0.003538
+   66                  Vanderbilt  0.003538
+   67                 Florida A&M  0.003532
+   68                    Virginia  0.003527
+   69                      Nevada  0.003525
+   70                  Ball State  0.003525
+   71                         LSU  0.003524
+   72                     Colgate  0.003520
+   73                      Oregon  0.003510
+   74                   Lafayette  0.003506
+   75                Northwestern  0.003506
+   76                    Maryland  0.003484
+   77                  California  0.003483
+   78              South Carolina  0.003475
+   79               Brigham Young  0.003469
+   80                    Monmouth  0.003464
+   81              Michigan State  0.003453
+   82                     Houston  0.003452
+   83             Tennessee State  0.003442
+   84           Stephen F. Austin  0.003433
+   85            Eastern Kentucky  0.003431
+   86               Jackson State  0.003429
+   87                     Clemson  0.003427
+   88               Massachusetts  0.003415
+   89                    Davidson  0.003409
+   90         Charleston Southern  0.003400
+   91                     Buffalo  0.003393
+   92            Northern Arizona  0.003387
+   93          Eastern Washington  0.003379
+   94                     Rutgers  0.003377
+   95               South Florida  0.003372
+   96               Montana State  0.003369
+   97                    Nebraska  0.003368
+   98   Central Connecticut State  0.003368
+   99                Murray State  0.003366
+  100                      Kansas  0.003365
+  101                    Delaware  0.003361
+  102                  Holy Cross  0.003358
+  103                    Cal Poly  0.003356
+  104              Oklahoma State  0.003355
+  105                        Rice  0.003349
+  106                 Connecticut  0.003346
+  107              Texas Southern  0.003341
+  108                        Duke  0.003332
+  109                  Miami (FL)  0.003327
+  110                Gardner-Webb  0.003323
+  111                        Elon  0.003321
+  112        North Carolina State  0.003307
+  113           Sam Houston State  0.003274
+  114              Morehead State  0.003273
+  115               Norfolk State  0.003250
+  116      Southeastern Louisiana  0.003247
+  117                     Arizona  0.003239
+  118              Nicholls State  0.003229
+  119    Southeast Missouri State  0.003226
+  120                        Navy  0.003220
+  121                   Wisconsin  0.003210
+  122              William & Mary  0.003200
+  123                    Arkansas  0.003187
+  124 Virginia Military Institute  0.003186
+  125              Portland State  0.003178
+  126            Central Michigan  0.003176
+  127                        Yale  0.003175
+  128             Bethune-Cookman  0.003175
+  129          Jacksonville State  0.003173
+  130               Southern Utah  0.003172
+  131                 Stony Brook  0.003144
+  132              Delaware State  0.003136
+  133              Tennessee Tech  0.003133
+  134            Western Michigan  0.003132
+  135                   Air Force  0.003131
+  136          North Dakota State  0.003127
+  137               Southern Miss  0.003121
+  138                      Hawaii  0.003097
+  139                   Minnesota  0.003094
+  140            Western Illinois  0.003090
+  141              Colorado State  0.003090
+  142                  Valparaiso  0.003088
+  143                    Kentucky  0.003086
+  144         Arkansas-Pine Bluff  0.003084
+  145            Western Carolina  0.003074
+  146                Morgan State  0.003073
+  147               Alabama State  0.003067
+  148              Louisiana Tech  0.003062
+  149                        Troy  0.003058
+  150          South Dakota State  0.003045
+  151                      Lehigh  0.003043
+  152          North Carolina A&T  0.003038
+  153                    UC Davis  0.003016
+  154                    Colorado  0.003009
+  155                     Hampton  0.003007
+  156            Coastal Carolina  0.003003
+  157            Florida Atlantic  0.002978
+  158                    Stanford  0.002975
+  159               Bowling Green  0.002968
+  160                  Notre Dame  0.002960
+  161                      Auburn  0.002958
+  162                Fresno State  0.002958
+  163                Pennsylvania  0.002956
+  164      North Carolina Central  0.002930
+  165         Southern University  0.002920
+  166                         UCF  0.002913
+  167                    Illinois  0.002913
+  168                     Memphis  0.002900
+  169               Robert Morris  0.002895
+  170                    Campbell  0.002894
+  171                 Chattanooga  0.002894
+  172                Rhode Island  0.002875
+  173                  Louisville  0.002875
+  174            Georgia Southern  0.002871
+  175            Youngstown State  0.002867
+  176              Arkansas State  0.002866
+  177                      Marist  0.002863
+  178                   Tennessee  0.002860
+  179         Louisiana-Lafayette  0.002857
+  180                     Fordham  0.002851
+  181                 Alabama A&M  0.002837
+  182                    Bucknell  0.002833
+  183      Middle Tennessee State  0.002818
+  184                     Cornell  0.002816
+  185                Kansas State  0.002803
+  186                    Marshall  0.002801
+  187              San Jose State  0.002800
+  188           Mississippi State  0.002793
+  189           Northern Illinois  0.002781
+  190               Arizona State  0.002777
+  191                    Duquesne  0.002774
+  192                        UTEP  0.002773
+  193                     Citadel  0.002771
+  194    Mississippi Valley State  0.002753
+  195            Eastern Illinois  0.002751
+  196                  Kent State  0.002749
+  197                      Baylor  0.002747
+  198       Florida International  0.002725
+  199            Louisiana-Monroe  0.002720
+  200                     Indiana  0.002720
+  201                     Wyoming  0.002719
+  202                        UNLV  0.002718
+  203                      Temple  0.002707
+  204                     Hofstra  0.002706
+  205                  New Mexico  0.002696
+  206     North Carolina Pembroke  0.002696
+  207                   Princeton  0.002695
+  208                       Akron  0.002690
+  209                      Purdue  0.002682
+  210                        Ohio  0.002676
+  211               Winston-Salem  0.002657
+  212                         UAB  0.002651
+  213            Western Kentucky  0.002649
+  214            Eastern Michigan  0.002645
+  215                   Texas A&M  0.002644
+  216                    Michigan  0.002643
+  217                        Army  0.002641
+  218              Missouri State  0.002634
+  219                        UCLA  0.002628
+  220            New Mexico State  0.002623
+  221                  Miami (OH)  0.002608
+  222                    Syracuse  0.002603
+  223                      Towson  0.002601
+  224                      Wagner  0.002597
+  225              Illinois State  0.002573
+  226                  Utah State  0.002559
+  227                  Iowa State  0.002553
+  228                      Toledo  0.002527
+  229          Southern Methodist  0.002505
+  230                 Austin Peay  0.002500
+  231                    Franklin  0.002499
+  232                Northeastern  0.002495
+  233                    Columbia  0.002490
+  234                      Rhodes  0.002488
+  235                Alcorn State  0.002487
+  236                  Georgetown  0.002478
+  237            Washington State  0.002477
+  238             San Diego State  0.002473
+  239                 Idaho State  0.002466
+  240                      Tulane  0.002457
+  241               Edward Waters  0.002456
+  242                      Howard  0.002456
+  243                       Idaho  0.002444
+  244              Wesley College  0.002442
+  245          Fayetteville State  0.002419
+  246                    Tuskegee  0.002416
+  247                      Marian  0.002411
+  248            St. Francis (IL)  0.002411
+  249                    Washburn  0.002409
+  250             Henderson State  0.002400
+  251         Arkansas-Monticello  0.002400
+  252                   Stonehill  0.002396
+  253                   Methodist  0.002387
+  254         Birmingham Southern  0.002387
+  255                 North Texas  0.002381
+  256           Northern Colorado  0.002371
+  257                Angelo State  0.002315
+  258                   Morehouse  0.002315
+  259       Southeastern Oklahoma  0.002315
+  260             Culver-Stockton  0.002315
+  261                      Chowan  0.002315
+  262                    Carthage  0.002315
+  263                   Dartmouth  0.002315
+  264               Clark Atlanta  0.002315
+  265                        Shaw  0.002315
+  266                 Dixie State  0.002315
+  267                   Mars Hill  0.002315
+  268                Missouri S&T  0.002315
+  269            North Greenville  0.002315
+  270           Southern Virginia  0.002315
+  271                    Langston  0.002315
+  272        Webber International  0.002315
+  273                        Pace  0.002315
+  274           Central Methodist  0.002315
+  275                 Adams State  0.002315
+  276          Western Washington  0.002315
+  277                  Assumption  0.002315
+  278              Virginia State  0.002315
+  279               Johnson Smith  0.002315
+  280               Texas College  0.002315
+  281              Western Oregon  0.002315
+  282          Texas A&M-Commerce  0.002315
+  283           Concordia College  0.002315
+  284               Azusa Pacific  0.002315
+  285                 Delta State  0.002315
+  286                      Quincy  0.002315
+  287                    Faulkner  0.002315
+  288             Glenville State  0.002315
+  289        New Mexico Highlands  0.002315
+  290                    Benedict  0.002315
+  291                    Tusculum  0.002315
+  292       Cumberland University  0.002315
+  293           Kentucky Wesleyan  0.002315
+  294             Montana-Western  0.002315
+  295                West Georgia  0.002315
+  296        Texas A&M-Kingsville  0.002315
+  297                     Lambuth  0.002315
+  298          Central Washington  0.002315
+  299                     Shorter  0.002315
+  300           Southwest Baptist  0.002315
+  301       East Central Oklahoma  0.002315
+  302               Indiana State  0.002315
+  303                Lincoln (MO)  0.002315
+  304                Lenoir-Rhyne  0.002315
+  305                William Penn  0.002315
+  306                 Livingstone  0.002315
+  307               Central State  0.002315
+  308                  Washington  0.002315
+  309              Humboldt State  0.002315
+  310                 St. Ambrose  0.002315
+  311                  Upper Iowa  0.002315
+  312            Baker University  0.002315
+  313                   Merrimack  0.002315
+  314             St. Cloud State  0.002315
+  315            St. Francis (PA)  0.002315
+  316             Delaware Valley  0.002315
+  317  Southern Connecticut State  0.002315
+  318                      Albion  0.002315
+  319             Bentley College  0.002315
+  320                West Chester  0.002315
+  321             Southern Oregon  0.002315
+  322   Concordia University (WI)  0.002315
+  323         Wisconsin-La Crosse  0.002315
+  324                    Stillman  0.002315

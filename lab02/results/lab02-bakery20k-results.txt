@@ -1,0 +1,16 @@
+minSup: 0.020000, minConf: 0.980000
+
+Skyline Frequent Itemsets
+[("'Chocolate' 'Eclair'",), ("'Vanilla' 'Eclair'",), ("'Almond' 'Tart'",), ("'Apricot' 'Tart'",), ("'Pecan' 'Tart'",), ("'Ganache' 'Cookie'",), ("'Chocolate' 'Meringue'",), ("'Vanilla' 'Meringue'",), ("'Almond' 'Croissant'",), ("'Chocolate' 'Croissant'",), ("'Almond' 'Bear Claw'",), ("'Blueberry' 'Danish'",), ("'Lemon' 'Cake'", "'Lemon' 'Tart'"), ("'Strawberry' 'Cake'", "'Napoleon' 'Cake'"), ("'Truffle' 'Cake'", "'Gongolais' 'Cookie'"), ("'Berry' 'Tart'", "'Bottled' 'Water'"), ("'Marzipan' 'Cookie'", "'Tuile' 'Cookie'"), ("'Cheese' 'Croissant'", "'Orange' 'Juice'"), ("'Chocolate' 'Cake'", "'Casino' 'Cake'", "'Chocolate' 'Coffee'"), ("'Opera' 'Cake'", "'Cherry' 'Tart'", "'Apricot' 'Danish'"), ("'Coffee' 'Eclair'", "'Blackberry' 'Tart'", "'Single' 'Espresso'"), ("'Blueberry' 'Tart'", "'Apricot' 'Croissant'", "'Hot' 'Coffee'"), ("'Chocolate' 'Tart'", "'Walnut' 'Cookie'", "'Vanilla' 'Frappuccino'"), ("'Coffee' 'Eclair'", "'Apple' 'Pie'", "'Almond' 'Twist'", "'Hot' 'Coffee'"), ("'Apple' 'Tart'", "'Apple' 'Croissant'", "'Apple' 'Danish'", "'Cherry' 'Soda'"), ("'Raspberry' 'Cookie'", "'Lemon' 'Cookie'", "'Lemon' 'Lemonade'", "'Raspberry' 'Lemonade'", "'Green' 'Tea'")]
+
+Singleton Association Rules:
+Rule 1: 'Hot' 'Coffee' | 'Apple' 'Pie' | 'Almond' 'Twist' ---> 'Coffee' 'Eclair' [sup = 0.02810, conf = 0.99469]
+Rule 2: 'Hot' 'Coffee' | 'Almond' 'Twist' | 'Coffee' 'Eclair' ---> 'Apple' 'Pie' [sup = 0.02810, conf = 0.99822]
+Rule 3: 'Hot' 'Coffee' | 'Apple' 'Pie' | 'Coffee' 'Eclair' ---> 'Almond' 'Twist' [sup = 0.02810, conf = 0.99645]
+Rule 4: 'Cherry' 'Soda' | 'Apple' 'Danish' | 'Apple' 'Croissant' ---> 'Apple' 'Tart' [sup = 0.02100, conf = 0.98824]
+Rule 5: 'Cherry' 'Soda' | 'Apple' 'Tart' | 'Apple' 'Danish' ---> 'Apple' 'Croissant' [sup = 0.02100, conf = 0.99526]
+Rule 6: 'Cherry' 'Soda' | 'Apple' 'Tart' | 'Apple' 'Croissant' ---> 'Apple' 'Danish' [sup = 0.02100, conf = 0.99291]
+Rule 7: 'Lemon' 'Lemonade' | 'Raspberry' 'Lemonade' | 'Green' 'Tea' | 'Lemon' 'Cookie' ---> 'Raspberry' 'Cookie' [sup = 0.02040, conf = 0.99756]
+Rule 8: 'Lemon' 'Lemonade' | 'Raspberry' 'Lemonade' | 'Green' 'Tea' | 'Raspberry' 'Cookie' ---> 'Lemon' 'Cookie' [sup = 0.02040, conf = 0.99756]
+Rule 9: 'Raspberry' 'Lemonade' | 'Green' 'Tea' | 'Raspberry' 'Cookie' | 'Lemon' 'Cookie' ---> 'Lemon' 'Lemonade' [sup = 0.02040, conf = 1.00000]
+Rule 10: 'Lemon' 'Lemonade' | 'Green' 'Tea' | 'Raspberry' 'Cookie' | 'Lemon' 'Cookie' ---> 'Raspberry' 'Lemonade' [sup = 0.02040, conf = 1.00000]

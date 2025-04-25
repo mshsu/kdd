@@ -1,0 +1,16 @@
+minSup: 0.150000, minConf: 0.400000
+
+Skyline Frequent Itemsets
+[('Aguirre, Ann',), ('Armstrong, Kelley',), ('Ballantine, Philippa / Ballantine, Pip',), ('Brett, Peter V.',), ('Butler, Octavia E.',), ('Chambers, S. J.',), ('Eddings, David',), ('Gleason, Patrick',), ('Hocking, Amanda',), ('Kirkman, Robert',), ('Leavy, Barbara Fass',), ('Maberry, Jonathan',), ('McClung, Michael',), ('Miller, Frank',), ("O'Donnell, Peter",), ('Rowland, Diana',), ('Schmitz, James H.',), ('Summers, Ella',), ('Van Coops, Nathan',), ('Vaughn, Carrie',), ('Banks, Iain M.', 'Layman, John'), ('Banks, Iain M.', 'Presley, M. D.'), ('Banks, Iain M.', 'Saunders, Charles R.'), ('Galland, Nicole', 'Saunders, Charles R.'), ('Johansen, Erika', 'Saunders, Charles R.'), ('Layman, John', 'Saunders, Charles R.')]
+
+Singleton Association Rules:
+Rule 1: Layman, John ---> Banks, Iain M. [sup = 0.16872, conf = 0.54667]
+Rule 2: Banks, Iain M. ---> Layman, John [sup = 0.16872, conf = 0.42268]
+Rule 3: Presley, M. D. ---> Banks, Iain M. [sup = 0.16461, conf = 0.58824]
+Rule 4: Banks, Iain M. ---> Presley, M. D. [sup = 0.16461, conf = 0.41237]
+Rule 5: Saunders, Charles R. ---> Banks, Iain M. [sup = 0.19342, conf = 0.46078]
+Rule 6: Banks, Iain M. ---> Saunders, Charles R. [sup = 0.19342, conf = 0.48454]
+Rule 7: Galland, Nicole ---> Saunders, Charles R. [sup = 0.15226, conf = 0.56923]
+Rule 8: Saunders, Charles R. ---> Johansen, Erika [sup = 0.16872, conf = 0.40196]
+Rule 9: Johansen, Erika ---> Saunders, Charles R. [sup = 0.16872, conf = 0.46591]
+Rule 10: Layman, John ---> Saunders, Charles R. [sup = 0.16049, conf = 0.52000]

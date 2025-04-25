@@ -1,0 +1,612 @@
+{
+ "dataset": "heart.csv",
+ "node": {
+  "var": "ST_Slope",
+  "edges": [
+   {
+    "edge": {
+     "value": "Up",
+     "node": {
+      "var": "ChestPainType",
+      "edges": [
+       {
+        "edge": {
+         "value": "ATA",
+         "leaf": {
+          "decision": "0",
+          "p": 0.9637681159420289
+         }
+        }
+       },
+       {
+        "edge": {
+         "value": "NAP",
+         "node": {
+          "var": "Oldpeak",
+          "edges": [
+           {
+            "edge": {
+             "value": "<=1.9",
+             "leaf": {
+              "decision": "0",
+              "p": 0.96
+             }
+            }
+           },
+           {
+            "edge": {
+             "value": ">1.9",
+             "node": {
+              "var": "Age",
+              "edges": [
+               {
+                "edge": {
+                 "value": "<=51",
+                 "leaf": {
+                  "decision": "0",
+                  "p": 1
+                 }
+                }
+               },
+               {
+                "edge": {
+                 "value": ">51",
+                 "leaf": {
+                  "decision": "1",
+                  "p": 1
+                 }
+                }
+               }
+              ]
+             }
+            }
+           }
+          ]
+         }
+        }
+       },
+       {
+        "edge": {
+         "value": "ASY",
+         "node": {
+          "var": "Oldpeak",
+          "edges": [
+           {
+            "edge": {
+             "value": "<=0.4",
+             "node": {
+              "var": "Cholesterol",
+              "edges": [
+               {
+                "edge": {
+                 "value": "<=0",
+                 "node": {
+                  "var": "FastingBS",
+                  "edges": [
+                   {
+                    "edge": {
+                     "value": "<=0",
+                     "node": {
+                      "var": "Age",
+                      "edges": [
+                       {
+                        "edge": {
+                         "value": "<=60",
+                         "node": {
+                          "var": "RestingBP",
+                          "edges": [
+                           {
+                            "edge": {
+                             "value": "<=120",
+                             "node": {
+                              "var": "Age",
+                              "edges": [
+                               {
+                                "edge": {
+                                 "value": "<=41",
+                                 "leaf": {
+                                  "decision": "0",
+                                  "p": 1
+                                 }
+                                }
+                               },
+                               {
+                                "edge": {
+                                 "value": ">41",
+                                 "leaf": {
+                                  "decision": "1",
+                                  "p": 1
+                                 }
+                                }
+                               }
+                              ]
+                             }
+                            }
+                           },
+                           {
+                            "edge": {
+                             "value": ">120",
+                             "leaf": {
+                              "decision": "0",
+                              "p": 1
+                             }
+                            }
+                           }
+                          ]
+                         }
+                        }
+                       },
+                       {
+                        "edge": {
+                         "value": ">60",
+                         "leaf": {
+                          "decision": "1",
+                          "p": 1
+                         }
+                        }
+                       }
+                      ]
+                     }
+                    }
+                   },
+                   {
+                    "edge": {
+                     "value": ">0",
+                     "leaf": {
+                      "decision": "1",
+                      "p": 1
+                     }
+                    }
+                   }
+                  ]
+                 }
+                }
+               },
+               {
+                "edge": {
+                 "value": ">0",
+                 "node": {
+                  "var": "MaxHR",
+                  "edges": [
+                   {
+                    "edge": {
+                     "value": "<=148",
+                     "node": {
+                      "var": "Age",
+                      "edges": [
+                       {
+                        "edge": {
+                         "value": "<=65",
+                         "leaf": {
+                          "decision": "0",
+                          "p": 1
+                         }
+                        }
+                       },
+                       {
+                        "edge": {
+                         "value": ">65",
+                         "node": {
+                          "var": "Age",
+                          "edges": [
+                           {
+                            "edge": {
+                             "value": "<=66",
+                             "leaf": {
+                              "decision": "1",
+                              "p": 1
+                             }
+                            }
+                           },
+                           {
+                            "edge": {
+                             "value": ">66",
+                             "leaf": {
+                              "decision": "0",
+                              "p": 1
+                             }
+                            }
+                           }
+                          ]
+                         }
+                        }
+                       }
+                      ]
+                     }
+                    }
+                   },
+                   {
+                    "edge": {
+                     "value": ">148",
+                     "node": {
+                      "var": "MaxHR",
+                      "edges": [
+                       {
+                        "edge": {
+                         "value": "<=181",
+                         "node": {
+                          "var": "RestingECG",
+                          "edges": [
+                           {
+                            "edge": {
+                             "value": "Normal",
+                             "node": {
+                              "var": "Cholesterol",
+                              "edges": [
+                               {
+                                "edge": {
+                                 "value": "<=255",
+                                 "node": {
+                                  "var": "RestingBP",
+                                  "edges": [
+                                   {
+                                    "edge": {
+                                     "value": "<=140",
+                                     "node": {
+                                      "var": "Age",
+                                      "edges": [
+                                       {
+                                        "edge": {
+                                         "value": "<=43",
+                                         "leaf": {
+                                          "decision": "0",
+                                          "p": 1
+                                         }
+                                        }
+                                       },
+                                       {
+                                        "edge": {
+                                         "value": ">43",
+                                         "node": {
+                                          "var": "MaxHR",
+                                          "edges": [
+                                           {
+                                            "edge": {
+                                             "value": "<=162",
+                                             "node": {
+                                              "var": "MaxHR",
+                                              "edges": [
+                                               {
+                                                "edge": {
+                                                 "value": "<=155",
+                                                 "leaf": {
+                                                  "decision": "0",
+                                                  "p": 1
+                                                 }
+                                                }
+                                               },
+                                               {
+                                                "edge": {
+                                                 "value": ">155",
+                                                 "leaf": {
+                                                  "decision": "1",
+                                                  "p": 1
+                                                 }
+                                                }
+                                               }
+                                              ]
+                                             }
+                                            }
+                                           },
+                                           {
+                                            "edge": {
+                                             "value": ">162",
+                                             "leaf": {
+                                              "decision": "0",
+                                              "p": 1
+                                             }
+                                            }
+                                           }
+                                          ]
+                                         }
+                                        }
+                                       }
+                                      ]
+                                     }
+                                    }
+                                   },
+                                   {
+                                    "edge": {
+                                     "value": ">140",
+                                     "leaf": {
+                                      "decision": "1",
+                                      "p": 1
+                                     }
+                                    }
+                                   }
+                                  ]
+                                 }
+                                }
+                               },
+                               {
+                                "edge": {
+                                 "value": ">255",
+                                 "leaf": {
+                                  "decision": "0",
+                                  "p": 1
+                                 }
+                                }
+                               }
+                              ]
+                             }
+                            }
+                           },
+                           {
+                            "edge": {
+                             "value": "ST",
+                             "leaf": {
+                              "decision": "0",
+                              "p": 1
+                             }
+                            }
+                           },
+                           {
+                            "edge": {
+                             "value": "LVH",
+                             "node": {
+                              "var": "Sex",
+                              "edges": [
+                               {
+                                "edge": {
+                                 "value": "M",
+                                 "leaf": {
+                                  "decision": "1",
+                                  "p": 1
+                                 }
+                                }
+                               },
+                               {
+                                "edge": {
+                                 "value": "F",
+                                 "node": {
+                                  "var": "Age",
+                                  "edges": [
+                                   {
+                                    "edge": {
+                                     "value": "<=57",
+                                     "leaf": {
+                                      "decision": "0",
+                                      "p": 1
+                                     }
+                                    }
+                                   },
+                                   {
+                                    "edge": {
+                                     "value": ">57",
+                                     "leaf": {
+                                      "decision": "1",
+                                      "p": 1
+                                     }
+                                    }
+                                   }
+                                  ]
+                                 }
+                                }
+                               }
+                              ]
+                             }
+                            }
+                           }
+                          ]
+                         }
+                        }
+                       },
+                       {
+                        "edge": {
+                         "value": ">181",
+                         "leaf": {
+                          "decision": "0",
+                          "p": 1
+                         }
+                        }
+                       }
+                      ]
+                     }
+                    }
+                   }
+                  ]
+                 }
+                }
+               }
+              ]
+             }
+            }
+           },
+           {
+            "edge": {
+             "value": ">0.4",
+             "leaf": {
+              "decision": "1",
+              "p": 0.7659574468085106
+             }
+            }
+           }
+          ]
+         }
+        }
+       },
+       {
+        "edge": {
+         "value": "TA",
+         "node": {
+          "var": "MaxHR",
+          "edges": [
+           {
+            "edge": {
+             "value": "<=127",
+             "node": {
+              "var": "Cholesterol",
+              "edges": [
+               {
+                "edge": {
+                 "value": "<=213",
+                 "node": {
+                  "var": "Age",
+                  "edges": [
+                   {
+                    "edge": {
+                     "value": "<=32",
+                     "leaf": {
+                      "decision": "1",
+                      "p": 1
+                     }
+                    }
+                   },
+                   {
+                    "edge": {
+                     "value": ">32",
+                     "leaf": {
+                      "decision": "0",
+                      "p": 1
+                     }
+                    }
+                   }
+                  ]
+                 }
+                }
+               },
+               {
+                "edge": {
+                 "value": ">213",
+                 "leaf": {
+                  "decision": "1",
+                  "p": 1
+                 }
+                }
+               }
+              ]
+             }
+            }
+           },
+           {
+            "edge": {
+             "value": ">127",
+             "leaf": {
+              "decision": "0",
+              "p": 0.9333333333333333
+             }
+            }
+           }
+          ]
+         }
+        }
+       }
+      ]
+     }
+    }
+   },
+   {
+    "edge": {
+     "value": "Flat",
+     "leaf": {
+      "decision": "1",
+      "p": 0.8282608695652174
+     }
+    }
+   },
+   {
+    "edge": {
+     "value": "Down",
+     "node": {
+      "var": "ChestPainType",
+      "edges": [
+       {
+        "edge": {
+         "value": "ATA",
+         "node": {
+          "var": "Age",
+          "edges": [
+           {
+            "edge": {
+             "value": "<=48",
+             "leaf": {
+              "decision": "1",
+              "p": 1
+             }
+            }
+           },
+           {
+            "edge": {
+             "value": ">48",
+             "leaf": {
+              "decision": "0",
+              "p": 1
+             }
+            }
+           }
+          ]
+         }
+        }
+       },
+       {
+        "edge": {
+         "value": "NAP",
+         "node": {
+          "var": "Cholesterol",
+          "edges": [
+           {
+            "edge": {
+             "value": "<=113",
+             "leaf": {
+              "decision": "1",
+              "p": 1
+             }
+            }
+           },
+           {
+            "edge": {
+             "value": ">113",
+             "leaf": {
+              "decision": "0",
+              "p": 1
+             }
+            }
+           }
+          ]
+         }
+        }
+       },
+       {
+        "edge": {
+         "value": "ASY",
+         "leaf": {
+          "decision": "1",
+          "p": 0.9130434782608695
+         }
+        }
+       },
+       {
+        "edge": {
+         "value": "TA",
+         "node": {
+          "var": "RestingBP",
+          "edges": [
+           {
+            "edge": {
+             "value": "<=142",
+             "leaf": {
+              "decision": "1",
+              "p": 1
+             }
+            }
+           },
+           {
+            "edge": {
+             "value": ">142",
+             "leaf": {
+              "decision": "0",
+              "p": 1
+             }
+            }
+           }
+          ]
+         }
+        }
+       }
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

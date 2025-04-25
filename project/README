@@ -1,0 +1,69 @@
+# CSC 466 Fall 2023
+# Dekhtyar
+# Final Project
+# Brendan Callender, Andrew Kerr, Martin Hsu, Sophia Chung
+
+# SUBMISSION DESCRIPTION
+Python Scripts, Jupyter Notebooks
+
+# RUN INSTRUCTIONS
+Must have the following packages:
+- pandas, numpy, os, wget, zipfile, json, itertools, typing, json, sys,
+    matplotlib
+
+Structure:
+- apriori.py - Contains functions to perform apriori algorithm for association
+    rules mining
+- kmeans.py - Contains functions to perform KMeans algorithm for clustering
+- dbscan.py - Contains functions to perform DBSCAN algorithm for clustering
+- knn.py - Contains functions to perform KNN algorithm for classification
+- induceC45.py - Contains functions to construct Decision Tree using C4.5
+    algorithm for classification
+- classify.py - Contains functions to classify using Decision Tree
+- validation.py - Contains functions to perform model validation using C4.5
+    algorithm
+- randomforest.py - Contains functions to perform Random Forest ensemble method
+    for classification
+- Question1.ipynb - Codebook for Question 1
+- Question2.ipynb - Codebook for Question 2
+- Question3.ipynb - Codebook for Question 3
+
+How to run
+1. Setup
+    a. Load the files into your environment of choice. Make sure that all python
+        scripts and notebooks are together in the same folder!!!! That way the
+        dependent scripts and notebookscan import and run functions from other
+        scripts.
+    b. Ensure that you have all the necessary packages.
+2. How to run Jupyter notebooks (Question1.ipynb, Question2.ipynb,
+    Question3.ipynb)
+    a. Open the Jupyter notebook into your IDE of choice. You may run the
+        notebooks in any order you wish.
+    b. Press "Run All" or any equivalent to run all code chunks.
+    c. WARNING: Code will take a long time to run.
+
+
+# PROGRAMS/FILES
+Python Scripts
+- apriori.py
+- kmeans.py
+- dbscan.py
+- knn.py
+- induceC45.py
+- classify.py
+- validation.py
+- randomforest.py
+Jupyter Notebooks
+- Question1.ipynb
+- Question2.ipynb
+- Question3.ipynb
+Other
+- AnalyticalProject-Report.pdf
+- CSC 466 Final Project Slide Deck.pptx
+- README
+
+# EXPECTED ERRORS
+- You MUST have all scripts in the SAME LOCATION or there will be errors.
+- Please be patient when running the scripts. They may be run in any order,
+    but the code chunks within the notebooks must be run in order.
+

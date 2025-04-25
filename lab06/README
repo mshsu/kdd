@@ -1,0 +1,114 @@
+# CSC 466 Fall 2023
+# Martin Hsu - mshsu@calpoly.edu
+# Rachel Roggenkemper - rroggenk@calpoly.edu
+
+# SUBMISSION DESCRIPTION
+Python Scripts
+
+# RUN INSTRUCTIONS
+Must have the following packages:
+- pandas, numpy, os, sys, typing, nltk, json
+
+Structure:
+- textVectorizer.py - contains the Vector object implementation and construction
+    methods, as well as a script to both convert documents to a vectorized CSV
+    file and produce a ground truth file
+- knnAuthorship.py - converts vectorized CSV file to Vector objects and performs
+    KNN classification on them with cosine similarity. Outputs a results file
+    with predicted and observed author for each document.
+- rfAuthorship.py - converts vectorized CSV file to Vector objects and performs
+    random forest classification on them. Outputs a results file with predicted
+    and observed author for each document.
+- classifierEvaluation.py - takes a results CSV file from either
+    knnAuthorship.py or rfAuthorship.py summarizes the results in printed output
+
+How to run
+1. Setup
+    a. Load the files into your environment of choice. Make sure that all python
+        scripts are together in the same folder!!!! That way the dependent
+        scripts can import and run functions from other scripts.
+    b. Additionally, stopwords.txt must be located in the same directory as the
+        python scripts.
+    c. First run textVectorizer.py, then run knnAuthorship.py or
+        rfAuthorship.py, then run classifierEvaluation.py.
+2. How to run textVectorizor.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 python3 textVectorizer.py <Directory> [<SampleSize>]
+        - <Directory> is the root directory of the corpus you want to
+            vectorize
+        - <SampleSize> is an optional int that can be passed if you would like
+            to take a random sample of documents from the root directory
+    c. The expected output should be:
+        - A ground truth CSV file as specified by Dr. Dekhtyar. The naming
+            convention will be <root directory>_ground_truth.csv.
+        - A CSV file where the columns are words, the rows are documents,
+            and each value is a term frequency. This is the "vectorized" version
+            of the documents in the corpus. The naming convention will be
+            <root directory>_vectorized.csv
+3. How to run knnAuthorship.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 knnAuthorship.py <VectorFile> <k>
+        - <VectorFile> - The vectorized documents CSV file path
+        - <k> - The number of neighbors to perform KNN document similarity with
+    c. The expected output should be:
+        - A single CSV file with three columns: The document name, the observed
+            author, and the predicted author using KNN. The naming convention
+            will be <root directory>_knn_results.csv
+4. How to run rfAuthorship.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 rfAuthorship.py <VectorFile> <numTrees> <numAttrs> <numPts> <threshold>
+        - <VectorFile> - The vectorized documents CSV file path
+        - <numTrees> - The number of decision trees to include in the random
+            forest model
+        - <numAttrs> - The number of attributes to use in the decision trees
+            in the random forest model
+        - <numPts> - The number of bootstrap sample points with which to train
+            each of the random forest trees on
+        - <threshold> - The cutoff information gain threshold to prune the tree
+            with
+    c. The expected output should be:
+        - A single CSV file with three columns: The document name, the observed
+            author, and the predicted author using random forest. The naming
+            convention will be <root directory>_rf_results.csv
+4. How to run classifierEvaluation.py
+    a. In the command line, navigate to the directory where the scripts are.
+    b. In the command line, use the following syntax:
+       $ python3 classifierEvaluation.py <resultsFile>
+        - <resultsFile> - The CSV output of either knnAuthorship.py or
+            rfAuthorship.py
+    c. The following will be printed to the terminal:
+        - The name of the results file
+        - An author-level table with each author's hits, strikes, misses,
+            precision, recall, and F1 score as seen in the predicted output
+        - An overall count of correct predictions, incorrect predictions, and
+            overall accuracy
+        - A confusion matrix including all authors.
+
+
+# PROGRAMS/FILES
+Python scripts:
+- textVectorizer.py
+- knnAuthorship.py
+- rfAuthorship.py
+- classifierEvaluation.py
+Output files:
+- knn_results.txt - Summarized results output for best KNN run from
+    knnAuthorship.py (1 nearest neighbor)
+- rf_results.txt - Summarized results output for best random forest run from
+    rfAuthorship.py (10 trees, 1000 attributes, 1000 per sample, 0.2 threshold)
+Other:
+- README
+- stopwords.txt - Stopwords file
+- Lab06-report.pdf
+
+# EXPECTED ERRORS:
+- The python scripts MUST ALL BE IN THE SAME FOLDER, or there will be errors.
+- stopwords.txt MUST be in the same directory as the python scripts, or there
+    WILL be errors!
+- Occasionally the programs will run into an error where it says that some
+    DataFrame object has no .unique() attribute. This happens occasionally,
+    and all you have to do to fix is to rerun, and usually it will not happen
+    again.

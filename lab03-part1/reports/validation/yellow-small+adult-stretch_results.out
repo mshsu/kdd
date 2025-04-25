@@ -1,0 +1,22 @@
+Martin Hsu - mshsu@calpoly.edu
+Lana Huynh - lmhuynh@calpoly.edu
+
+Data: yellow-small+adult-stretch.csv
+Class Attribute: Inflated
+Validation: 5-Fold Cross Validation
+
+Confusion Matrix:
+obs   F  T
+pred      
+F     5  2
+T     4  5
+
+Records Classified: 16
+Records Correctly Classified: 10
+Records Incorrectly Classified: 6
+Overall Accuracy: 0.625
+Average Accuracy: 0.633
+Overall Error Rate: 0.375
+                           F         T
+Overall Precision:  0.714286  0.555556
+Overall Recall:     0.555556  0.714286

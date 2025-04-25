@@ -1,0 +1,22 @@
+Martin Hsu - mshsu@calpoly.edu
+Lana Huynh - lmhuynh@calpoly.edu
+
+Data: agaricus-lepiota.csv
+Class Attribute: Class
+Validation: 10-Fold Cross Validation
+
+Confusion Matrix:
+obs      e     p
+pred            
+e     4153   206
+p       55  3710
+
+Records Classified: 8124
+Records Correctly Classified: 7863
+Records Incorrectly Classified: 261
+Overall Accuracy: 0.968
+Average Accuracy: 0.968
+Overall Error Rate: 0.032
+                           e         p
+Overall Precision:  0.952741  0.985392
+Overall Recall:     0.986930  0.947395

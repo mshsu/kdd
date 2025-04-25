@@ -1,0 +1,22 @@
+Martin Hsu - mshsu@calpoly.edu
+Lana Huynh - lmhuynh@calpoly.edu
+
+Data: heart.csv
+Class Attribute: HeartDisease
+Validation: 10-Fold Cross Validation
+
+Confusion Matrix:
+obs     0    1
+pred          
+0     319   74
+1      91  434
+
+Records Classified: 918
+Records Correctly Classified: 753
+Records Incorrectly Classified: 165
+Overall Accuracy: 0.820
+Average Accuracy: 0.820
+Overall Error Rate: 0.180
+                           0         1
+Overall Precision:  0.811705  0.826667
+Overall Recall:     0.778049  0.854331
